@@ -1,0 +1,60 @@
+#footer{
+    position: absolute;
+    bottom: 1%;
+    right: 0;
+    width: 100%;
+}
+#footer h2{
+    text-align: center;
+    margin: 0;
+}
+
+/* ЛЕВЫЙ САЙДБАР */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 240px;
+    background-color: #303030;
+    position: absolute;
+    height: 87.5%;
+    overflow: auto;
+  }
+/* Сайдбар ссылки */
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  /* Ссылки при наведении мыши */
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  /* Содержание страницы. Значение свойства margin-left должно соответствовать значению свойства width боковой панели */
+  div.content {
+    margin-left: 240px;
+    padding: 1px 16px;
+    height: 100%;
+  }
+
+  /* На экранах шириной менее 700 пикселей превратить боковую панель в верхнюю панель */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+
+  /* На экранах размером менее 400 пикселей панель отображать вертикально, а не горизонтально */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
