@@ -5,12 +5,13 @@ session_start();
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Просто стили -->
-    <link rel="stylesheet" type="text/css" href="css/style.css?v=1.0.1.8">
+    <link rel="stylesheet" type="text/css" href="css/style.css?v=1.0.1.7">
 
     <!-- Иконка вкладки -->
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
@@ -21,6 +22,7 @@ session_start();
 
     <!-- Подключение Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!-- Подключение MBD -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
@@ -36,9 +38,10 @@ session_start();
       const searchInput = document.getElementById('search-input');
         searchButton.addEventListener('click', () => {
           const inputValue = searchInput.value;
-        alert(inputValue);
+          alert(inputValue);
         });
     </script>
+
     <!-- Имя вкладки -->
     <title>MasyaTest</title>
 </head>
@@ -57,54 +60,62 @@ session_start();
     <!-- Имя логотипа -->
     <div class="container-fluid">
       <a class="navbar-brand" href="#" style="font-family: 'RocknRoll One', sans-serif;">MasyaSmerd</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
-
-<!-- Поиск -->
-        <div class="input-group" style="padding-left: 30em;">
-  <div class="form-outline">
-    <input id="search-input" type="search" id="form1" class="form-control" style="background: white; width: 30em"/>
-    <label class="form-label" for="form1">Search</label>
-  </div>
-  <button id="search-button" type="button" class="btn btn-primary">
-    <i class="fas fa-search"></i>
-  </button>
-</div>
-
-      <div class="btn-group dropstart">
-  <button type="button" class="btn btn-outline-primary id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-    Войти
-  </button>
-      </div>
-
-
-          <!-- Выпадающее меню авторизации -->
-          <div class="dropdown-menu">
-  <form class="px-4 py-3">
-    <div class="mb-3">
-      <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+      </button>
     </div>
-    <div class="mb-3">
-      <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
-    </div>
-    <div class="mb-3">
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="dropdownCheck">
-        <label class="form-check-label" for="dropdownCheck">
-          Remember me
-        </label>
-      </div>
-    </div>
-    <button type="submit" class="btn btn-primary">Sign in</button>
-  </form>
-  <div class="dropdown-divider"></div>
-  <a class="dropdown-item" href="#">New around here? Sign up</a>
-  <a class="dropdown-item" href="#">Forgot password?</a>
-</div>
 
+    <!-- Поиск -->
+    <div class="d7">
+      <form class="form-search">
+        <input class="input-search" type="text" placeholder="Искать здесь...">
+        <button class="button-search" type="submit"></button>
+      </form>
+    </div>
+
+    <!-- Кнопка входа -->
+    <div class="btn-group dropstart" style="margin-right:2em">
+      <button onclick="document.getElementById('id01').style.display='block'" type="button" class="btn btn-outline-primary  id="dropdownMenuButton" style="color:white; background:#0d6efd"data-bs-toggle="dropdown" aria-expanded="false">Войти</button>
+    </div>
+
+    <!-- Модальное окно входа -->
+    <div id="id01" class="modal">
+
+      <!-- Аватарка -->
+      <form class="modal-content-animate" style="background:#171717" action="/action_page.php" >
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="closer" title="Close Modal">×</span>
+          <img src="favicon.ico" alt="Avatar" class="avatar">
         </div>
+
+        <!-- Логин -->
+        <div class="container">
+          <label for="uname"><b>Логин</b></label>
+          <input type="text" placeholder="Введите логин" name="uname" required style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box;">
+
+        <!-- Пароль -->
+          <label for="psw"><b>Пароль</b></label>
+          <input type="password" placeholder="Введите пароль" name="psw" required style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box;">
+        <!-- Кнопка входа -->
+          <button type="submit" style="background-color: #4CAF50; color: white; padding: 14px 20px; margin: 8px 0; border: none; cursor: pointer; width: 100%;">Войти</button>
+          <label style="padding-top: 16px;">
+            <input type="checkbox" name="remember"> Запомнить меня
+          </label>
+          <span class="psw">Забыли <a href="#">пароль?</a></span>
         </div>
+      </form>
+    </div>
+
+<script>
+// Окно авторизации
+var modal = document.getElementById('id01');
+
+// Скрипт закрытия окна авторизации
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
 </nav>
