@@ -11,7 +11,8 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Просто стили -->
-    <link rel="stylesheet" type="text/css" href="css/style.css?v=1.0.1.7">
+    <link rel="stylesheet" type="text/css" href="css/style.css?v=1.0.1.8">
+    <link rel="stylesheet" type="text/css" href="css/modal_window.css?v=1.0.0.1">
 
     <!-- Иконка вкладки -->
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
@@ -68,7 +69,7 @@ session_start();
     <!-- Поиск -->
     <div class="d7">
       <form class="form-search">
-        <input class="input-search" type="text" placeholder="Искать здесь...">
+        <input class="input-search" type="text" placeholder="Введите запрос">
         <button class="button-search" type="submit"></button>
       </form>
     </div>
@@ -90,18 +91,24 @@ session_start();
 
         <!-- Логин -->
         <div class="container">
-          <label for="uname"><b>Логин</b></label>
-          <input type="text" placeholder="Введите логин" name="uname" required style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box;">
+          <div class="modal-container">
+            <label  for="uname"><b>Логин</b></label>
+            <input class="modal-input" type="text" placeholder="Введите логин" name="uname" required>
 
-        <!-- Пароль -->
-          <label for="psw"><b>Пароль</b></label>
-          <input type="password" placeholder="Введите пароль" name="psw" required style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box;">
-        <!-- Кнопка входа -->
-          <button type="submit" style="background-color: #4CAF50; color: white; padding: 14px 20px; margin: 8px 0; border: none; cursor: pointer; width: 100%;">Войти</button>
-          <label style="padding-top: 16px;">
-            <input type="checkbox" name="remember"> Запомнить меня
-          </label>
-          <span class="psw">Забыли <a href="#">пароль?</a></span>
+            <!-- Пароль -->
+              <label for="psw"><b>Пароль</b></label>
+              <input class="modal-input" type="password" required placeholder="Введите пароль" name="psw" >
+
+            <!-- Кнопки входов -->
+              <button class="modal-button-login" type="submit">Войти</button>
+              <button class="modal-button-registration" type="button"><a href="#" style="color: #ffffff">Регистарция</a></button>
+
+            <!-- Кнопки запоминания с броса паролей -->
+              <label class="checkbox">
+              <input type="checkbox" name="remember" >Запомнить меня
+              </label>
+              <span class="psw">Забыли <a href="#">пароль?</a></span>
+          </div>
         </div>
       </form>
     </div>
