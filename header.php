@@ -11,8 +11,8 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Просто стили -->
-    <link rel="stylesheet" type="text/css" href="css/style.css?v=1.0.1.8">
-    <link rel="stylesheet" type="text/css" href="css/modal_window.css?v=1.0.0.1">
+    <link rel="stylesheet" type="text/css" href="css/style.css?v=1.0.1.9">
+    <link rel="stylesheet" type="text/css" href="css/modal_window.css?v=1.0.0.2">
 
     <!-- Иконка вкладки -->
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
@@ -90,7 +90,7 @@ session_start();
         </div>
 
         <!-- Логин -->
-        <div class="container">
+        <div class="container" style="color: white; font-family: 'RocknRoll One', sans-serif;">
           <div class="modal-container">
             <label  for="uname"><b>Логин</b></label>
             <input class="modal-input" type="text" placeholder="Введите логин" name="uname" required>
@@ -101,13 +101,13 @@ session_start();
 
             <!-- Кнопки входов -->
               <button class="modal-button-login" type="submit">Войти</button>
-              <button class="modal-button-registration" type="button"><a href="#" style="color: #ffffff">Регистарция</a></button>
+              <button class="modal-button-registration" type="button"><a href="#" style="text-decoration: auto; color: #ffffff">Регистарция</a></button>
 
             <!-- Кнопки запоминания с броса паролей -->
               <label class="checkbox">
               <input type="checkbox" name="remember" >Запомнить меня
               </label>
-              <span class="psw">Забыли <a href="#">пароль?</a></span>
+              <span class="psw">Забыли <a href="#" ">пароль?</a></span>
           </div>
         </div>
       </form>

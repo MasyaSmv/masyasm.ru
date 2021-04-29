@@ -9,6 +9,11 @@
     margin: 0;
 }
 
+.gura {
+    height: 29em;
+    width: -webkit-fill-available;
+}
+
 #dropdownMenuButton {
   -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
@@ -160,6 +165,3 @@
     top:-5px;
   }
 }
-
-
- 
