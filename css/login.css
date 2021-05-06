@@ -11,7 +11,7 @@
 }
 body {
     font-family: 'Titillium Web', sans-serif;
-    background-color: #212529;
+    background-color: rgb(24, 26, 27);
 }
 a{
     color:#ff5400;
@@ -27,7 +27,7 @@ a:hover {
 }
 
 .kpx_login .kpx_socialButtons a {
-    color: white; // In yourUse @body-bg
+    color: white;
 	opacity:0.9;
 }
 .kpx_login .kpx_socialButtons a:hover {
@@ -162,7 +162,7 @@ a:hover {
 	left: 50%;
 	top: -20px;
 	margin-left: -1.5em;
-	background-color: #212529;
+	background-color: rgb(24, 26, 27);;
 	width: 3em;
 	text-align: center;
 }
@@ -207,6 +207,10 @@ hr {
 
 .custom-control {
   padding-left: 0;
+}
+
+.tag.tag-danger {
+  padding-left: 33px;
 }
 
 @media (min-width: 768px) {

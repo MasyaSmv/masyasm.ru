@@ -13,3 +13,8 @@
   align-items: center;
   border: none;
 }
+
+.table {
+  width: 40em;
+  margin: auto;
+}

@@ -1,0 +1,2118 @@
+html {
+    background-color: #181a1b !important;
+}
+html, body, input, textarea, select, button {
+    background-color: #181a1b;
+}
+html, body, input, textarea, select, button {
+    border-color: #736b5e;
+    color: #e8e6e3;
+}
+a {
+    color: #3391ff;
+}
+table {
+    border-color: #545b5e;
+}
+::placeholder {
+    color: #b2aba1;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #555b00 !important;
+    color: #e8e6e3 !important;
+}
+::-webkit-scrollbar {
+    background-color: #202324;
+    color: #aba499;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #575e62;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #484e51;
+}
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+::selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+::-moz-selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+
+/* Invert Style */
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], embed[type="application/pdf"] {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}
+
+/* Variables Style */
+:root {
+   --darkreader-neutral-background: #131516;
+   --darkreader-neutral-text: #d8d4cf;
+   --darkreader-selection-background: #004daa;
+   --darkreader-selection-text: #e8e6e3;
+}
+
+/* Modified CSS */
+:root {
+    --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #007bff; --secondary: #6c757d; --success: #28a745; --info: #17a2b8; --warning: #ffc107; --danger: #dc3545; --light: #f8f9fa; --dark: #343a40; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",
+    monospace;
+}
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+    color: rgb(209, 205, 199);
+    background-color: rgb(24, 26, 27);
+}
+[tabindex="-1"]:focus {
+    outline-color: initial !important;
+}
+abbr[data-original-title],
+abbr[title] {
+    text-decoration-color: initial;
+    border-bottom-color: initial;
+}
+a {
+    color: rgb(51, 162, 255);
+    text-decoration-color: initial;
+    background-color: transparent;
+}
+a:hover {
+    color: rgb(97, 183, 255);
+    text-decoration-color: initial;
+}
+a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration-color: initial;
+}
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
+    color: inherit;
+    text-decoration-color: initial;
+}
+a:not([href]):not([tabindex]):focus {
+    outline-color: initial;
+}
+caption {
+    color: rgb(158, 150, 137);
+}
+button:focus {
+    outline-color: rgb(186, 123, 0);
+}
+fieldset {
+    border-color: initial;
+}
+legend {
+    color: inherit;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: inherit;
+}
+hr {
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-top-color: rgba(140, 130, 115, 0.1);
+}
+.mark,
+mark {
+    background-color: rgb(63, 54, 7);
+}
+.list-unstyled {
+    list-style-image: initial;
+}
+.list-inline {
+    list-style-image: initial;
+}
+.blockquote-footer {
+    color: rgb(158, 150, 137);
+}
+.img-thumbnail {
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(56, 61, 63);
+}
+.figure-caption {
+    color: rgb(158, 150, 137);
+}
+code {
+    color: rgb(233, 74, 147);
+}
+a > code {
+    color: inherit;
+}
+kbd {
+    color: rgb(232, 230, 227);
+    background-color: rgb(28, 30, 31);
+}
+pre {
+    color: rgb(209, 205, 199);
+}
+pre code {
+    color: inherit;
+}
+.table {
+    background-color: transparent;
+}
+.table td,
+.table th {
+    border-top-color: rgb(56, 61, 63);
+}
+.table thead th {
+    border-bottom-color: rgb(56, 61, 63);
+}
+.table tbody + tbody {
+    border-top-color: rgb(56, 61, 63);
+}
+.table .table {
+    background-color: rgb(24, 26, 27);
+}
+.table-bordered {
+    border-color: rgb(56, 61, 63);
+}
+.table-bordered td,
+.table-bordered th {
+    border-color: rgb(56, 61, 63);
+}
+.table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+.table-primary,
+.table-primary > td,
+.table-primary > th {
+    background-color: rgb(44, 48, 50);
+}
+.table-hover .table-primary:hover {
+    background-color: rgb(51, 55, 57);
+}
+.table-hover .table-primary:hover > td,
+.table-hover .table-primary:hover > th {
+    background-color: rgb(51, 55, 57);
+}
+.table-secondary,
+.table-secondary > td,
+.table-secondary > th {
+    background-color: rgb(46, 50, 51);
+}
+.table-hover .table-secondary:hover {
+    background-color: rgb(53, 58, 60);
+}
+.table-hover .table-secondary:hover > td,
+.table-hover .table-secondary:hover > th {
+    background-color: rgb(53, 58, 60);
+}
+.table-success,
+.table-success > td,
+.table-success > th {
+    background-color: rgb(30, 72, 48);
+}
+.table-hover .table-success:hover {
+    background-color: rgb(34, 83, 54);
+}
+.table-hover .table-success:hover > td,
+.table-hover .table-success:hover > th {
+    background-color: rgb(34, 83, 54);
+}
+.table-info,
+.table-info > td,
+.table-info > th {
+    background-color: rgb(24, 71, 78);
+}
+.table-hover .table-info:hover {
+    background-color: rgb(28, 81, 89);
+}
+.table-hover .table-info:hover > td,
+.table-hover .table-info:hover > th {
+    background-color: rgb(28, 81, 89);
+}
+.table-warning,
+.table-warning > td,
+.table-warning > th {
+    background-color: rgb(92, 70, 0);
+}
+.table-hover .table-warning:hover {
+    background-color: rgb(107, 81, 0);
+}
+.table-hover .table-warning:hover > td,
+.table-hover .table-warning:hover > th {
+    background-color: rgb(107, 81, 0);
+}
+.table-danger,
+.table-danger > td,
+.table-danger > th {
+    background-color: rgb(78, 14, 20);
+}
+.table-hover .table-danger:hover {
+    background-color: rgb(91, 16, 24);
+}
+.table-hover .table-danger:hover > td,
+.table-hover .table-danger:hover > th {
+    background-color: rgb(91, 16, 24);
+}
+.table-light,
+.table-light > td,
+.table-light > th {
+    background-color: rgb(25, 27, 28);
+}
+.table-hover .table-light:hover {
+    background-color: rgb(32, 35, 36);
+}
+.table-hover .table-light:hover > td,
+.table-hover .table-light:hover > th {
+    background-color: rgb(32, 35, 36);
+}
+.table-dark,
+.table-dark > td,
+.table-dark > th {
+    background-color: rgb(55, 60, 62);
+}
+.table-hover .table-dark:hover {
+    background-color: rgb(62, 67, 70);
+}
+.table-hover .table-dark:hover > td,
+.table-hover .table-dark:hover > th {
+    background-color: rgb(62, 67, 70);
+}
+.table-active,
+.table-active > td,
+.table-active > th {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+.table-hover .table-active:hover {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+.table-hover .table-active:hover > td,
+.table-hover .table-active:hover > th {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+.table .thead-dark th {
+    color: rgb(232, 230, 227);
+    background-color: rgb(28, 30, 31);
+    border-color: rgb(122, 113, 100);
+}
+.table .thead-light th {
+    color: rgb(181, 175, 166);
+    background-color: rgb(35, 38, 39);
+    border-color: rgb(56, 61, 63);
+}
+.table-dark {
+    color: rgb(232, 230, 227);
+    background-color: rgb(28, 30, 31);
+}
+.table-dark td,
+.table-dark th,
+.table-dark thead th {
+    border-color: rgb(122, 113, 100);
+}
+.table-dark.table-bordered {
+    border-color: initial;
+}
+.table-dark.table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: rgba(24, 26, 27, 0.05);
+}
+.table-dark.table-hover tbody tr:hover {
+    background-color: rgba(24, 26, 27, 0.07);
+}
+@media (max-width: 575.98px) {
+    .table-responsive-sm > .table-bordered {
+        border-color: initial;
+    }
+}
+@media (max-width: 767.98px) {
+    .table-responsive-md > .table-bordered {
+        border-color: initial;
+    }
+}
+@media (max-width: 991.98px) {
+    .table-responsive-lg > .table-bordered {
+        border-color: initial;
+    }
+}
+@media (max-width: 1199.98px) {
+    .table-responsive-xl > .table-bordered {
+        border-color: initial;
+    }
+}
+.table-responsive > .table-bordered {
+    border-color: initial;
+}
+.form-control {
+    color: rgb(181, 175, 166);
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(60, 65, 68);
+}
+.form-control:focus {
+    color: rgb(181, 175, 166);
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(0, 67, 140);
+    outline-color: initial;
+    box-shadow: rgba(0, 98, 204, 0.25) 0px 0px 0px 0.2rem;
+}
+.form-control::-webkit-input-placeholder {
+    color: rgb(158, 150, 137);
+}
+.form-control::placeholder {
+    color: rgb(158, 150, 137);
+}
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: rgb(35, 38, 39);
+}
+.form-control-plaintext {
+    background-color: transparent;
+    border-color: transparent;
+}
+.form-check-input:disabled ~ .form-check-label {
+    color: rgb(158, 150, 137);
+}
+.valid-feedback {
+    color: rgb(97, 217, 124);
+}
+.valid-tooltip {
+    color: rgb(232, 230, 227);
+    background-color: rgba(32, 134, 55, 0.8);
+}
+.custom-select.is-valid,
+.form-control.is-valid,
+.was-validated .custom-select:valid,
+.was-validated .form-control:valid {
+    border-color: rgb(37, 156, 64);
+}
+.custom-select.is-valid:focus,
+.form-control.is-valid:focus,
+.was-validated .custom-select:valid:focus,
+.was-validated .form-control:valid:focus {
+    border-color: rgb(37, 156, 64);
+    box-shadow: rgba(32, 134, 55, 0.25) 0px 0px 0px 0.2rem;
+}
+.form-check-input.is-valid ~ .form-check-label,
+.was-validated .form-check-input:valid ~ .form-check-label {
+    color: rgb(97, 217, 124);
+}
+.custom-control-input.is-valid ~ .custom-control-label,
+.was-validated .custom-control-input:valid ~ .custom-control-label {
+    color: rgb(97, 217, 124);
+}
+.custom-control-input.is-valid ~ .custom-control-label::before,
+.was-validated .custom-control-input:valid ~ .custom-control-label::before {
+    background-color: rgb(30, 126, 71);
+}
+.custom-control-input.is-valid:checked ~ .custom-control-label::before,
+.was-validated .custom-control-input:valid:checked ~ .custom-control-label::before {
+    background-color: rgb(39, 163, 91);
+}
+.custom-control-input.is-valid:focus ~ .custom-control-label::before,
+.was-validated .custom-control-input:valid:focus ~ .custom-control-label::before {
+    box-shadow: rgb(24, 26, 27) 0px 0px 0px 1px,
+    rgba(32, 134, 55, 0.25) 0px 0px 0px 0.2rem;
+}
+.custom-file-input.is-valid ~ .custom-file-label,
+.was-validated .custom-file-input:valid ~ .custom-file-label {
+    border-color: rgb(37, 156, 64);
+}
+.custom-file-input.is-valid ~ .custom-file-label::before,
+.was-validated .custom-file-input:valid ~ .custom-file-label::before {
+    border-color: inherit;
+}
+.custom-file-input.is-valid:focus ~ .custom-file-label,
+.was-validated .custom-file-input:valid:focus ~ .custom-file-label {
+    box-shadow: rgba(32, 134, 55, 0.25) 0px 0px 0px 0.2rem;
+}
+.invalid-feedback {
+    color: rgb(223, 70, 85);
+}
+.invalid-tooltip {
+    color: rgb(232, 230, 227);
+    background-color: rgba(165, 29, 42, 0.8);
+}
+.custom-select.is-invalid,
+.form-control.is-invalid,
+.was-validated .custom-select:invalid,
+.was-validated .form-control:invalid {
+    border-color: rgb(148, 26, 37);
+}
+.custom-select.is-invalid:focus,
+.form-control.is-invalid:focus,
+.was-validated .custom-select:invalid:focus,
+.was-validated .form-control:invalid:focus {
+    border-color: rgb(148, 26, 37);
+    box-shadow: rgba(165, 29, 42, 0.25) 0px 0px 0px 0.2rem;
+}
+.form-check-input.is-invalid ~ .form-check-label,
+.was-validated .form-check-input:invalid ~ .form-check-label {
+    color: rgb(223, 70, 85);
+}
+.custom-control-input.is-invalid ~ .custom-control-label,
+.was-validated .custom-control-input:invalid ~ .custom-control-label {
+    color: rgb(223, 70, 85);
+}
+.custom-control-input.is-invalid ~ .custom-control-label::before,
+.was-validated .custom-control-input:invalid ~ .custom-control-label::before {
+    background-color: rgb(99, 17, 25);
+}
+.custom-control-input.is-invalid:checked ~ .custom-control-label::before,
+.was-validated .custom-control-input:invalid:checked ~ .custom-control-label::before {
+    background-color: rgb(139, 24, 35);
+}
+.custom-control-input.is-invalid:focus ~ .custom-control-label::before,
+.was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before {
+    box-shadow: rgb(24, 26, 27) 0px 0px 0px 1px,
+    rgba(165, 29, 42, 0.25) 0px 0px 0px 0.2rem;
+}
+.custom-file-input.is-invalid ~ .custom-file-label,
+.was-validated .custom-file-input:invalid ~ .custom-file-label {
+    border-color: rgb(148, 26, 37);
+}
+.custom-file-input.is-invalid ~ .custom-file-label::before,
+.was-validated .custom-file-input:invalid ~ .custom-file-label::before {
+    border-color: inherit;
+}
+.custom-file-input.is-invalid:focus ~ .custom-file-label,
+.was-validated .custom-file-input:invalid:focus ~ .custom-file-label {
+    box-shadow: rgba(165, 29, 42, 0.25) 0px 0px 0px 0.2rem;
+}
+.btn {
+    border-color: transparent;
+}
+.btn:focus,
+.btn:hover {
+    text-decoration-color: initial;
+}
+.btn.focus,
+.btn:focus {
+    outline-color: initial;
+    box-shadow: rgba(0, 98, 204, 0.25) 0px 0px 0px 0.2rem;
+}
+.btn:not(:disabled):not(.disabled).active,
+.btn:not(:disabled):not(.disabled):active {
+    background-image: none;
+}
+.btn-primary {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 98, 204);
+    border-color: rgb(0, 86, 179);
+}
+.btn-primary:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 84, 174);
+    border-color: rgb(0, 93, 194);
+}
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: rgba(0, 98, 204, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 98, 204);
+    border-color: rgb(0, 86, 179);
+}
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 78, 163);
+    border-color: rgb(0, 95, 198);
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: rgba(0, 98, 204, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-secondary {
+    color: rgb(232, 230, 227);
+    background-color: rgb(88, 95, 99);
+    border-color: rgb(102, 94, 83);
+}
+.btn-secondary:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(73, 79, 82);
+    border-color: rgb(110, 102, 90);
+}
+.btn-secondary.focus,
+.btn-secondary:focus {
+    box-shadow: rgba(88, 95, 99, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+    color: rgb(232, 230, 227);
+    background-color: rgb(88, 95, 99);
+    border-color: rgb(102, 94, 83);
+}
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(69, 74, 77);
+    border-color: rgb(112, 104, 92);
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: rgba(88, 95, 99, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-success {
+    color: rgb(232, 230, 227);
+    background-color: rgb(32, 134, 55);
+    border-color: rgb(37, 156, 64);
+}
+.btn-success:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(26, 109, 45);
+    border-color: rgb(40, 168, 69);
+}
+.btn-success.focus,
+.btn-success:focus {
+    box-shadow: rgba(32, 134, 55, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-success.disabled,
+.btn-success:disabled {
+    color: rgb(232, 230, 227);
+    background-color: rgb(32, 134, 55);
+    border-color: rgb(37, 156, 64);
+}
+.btn-success:not(:disabled):not(.disabled).active,
+.btn-success:not(:disabled):not(.disabled):active,
+.show > .btn-success.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 101, 42);
+    border-color: rgb(41, 171, 71);
+}
+.btn-success:not(:disabled):not(.disabled).active:focus,
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.show > .btn-success.dropdown-toggle:focus {
+    box-shadow: rgba(32, 134, 55, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-info {
+    color: rgb(232, 230, 227);
+    background-color: rgb(18, 130, 147);
+    border-color: rgb(21, 151, 171);
+}
+.btn-info:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(15, 106, 120);
+    border-color: rgb(23, 163, 186);
+}
+.btn-info.focus,
+.btn-info:focus {
+    box-shadow: rgba(18, 130, 147, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-info.disabled,
+.btn-info:disabled {
+    color: rgb(232, 230, 227);
+    background-color: rgb(18, 130, 147);
+    border-color: rgb(21, 151, 171);
+}
+.btn-info:not(:disabled):not(.disabled).active,
+.btn-info:not(:disabled):not(.disabled):active,
+.show > .btn-info.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(14, 98, 111);
+    border-color: rgb(24, 166, 188);
+}
+.btn-info:not(:disabled):not(.disabled).active:focus,
+.btn-info:not(:disabled):not(.disabled):active:focus,
+.show > .btn-info.dropdown-toggle:focus {
+    box-shadow: rgba(18, 130, 147, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-warning {
+    color: rgb(209, 205, 199);
+    background-color: rgb(200, 150, 0);
+    border-color: rgb(176, 132, 0);
+}
+.btn-warning:hover {
+    color: rgb(209, 205, 199);
+    background-color: rgb(179, 134, 0);
+    border-color: rgb(192, 144, 0);
+}
+.btn-warning.focus,
+.btn-warning:focus {
+    box-shadow: rgba(200, 150, 0, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-warning.disabled,
+.btn-warning:disabled {
+    color: rgb(209, 205, 199);
+    background-color: rgb(200, 150, 0);
+    border-color: rgb(176, 132, 0);
+}
+.btn-warning:not(:disabled):not(.disabled).active,
+.btn-warning:not(:disabled):not(.disabled):active,
+.show > .btn-warning.dropdown-toggle {
+    color: rgb(209, 205, 199);
+    background-color: rgb(169, 126, 0);
+    border-color: rgb(196, 147, 0);
+}
+.btn-warning:not(:disabled):not(.disabled).active:focus,
+.btn-warning:not(:disabled):not(.disabled):active:focus,
+.show > .btn-warning.dropdown-toggle:focus {
+    box-shadow: rgba(200, 150, 0, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-danger {
+    color: rgb(232, 230, 227);
+    background-color: rgb(165, 29, 42);
+    border-color: rgb(148, 26, 37);
+}
+.btn-danger:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(160, 28, 41);
+    border-color: rgb(160, 28, 41);
+}
+.btn-danger.focus,
+.btn-danger:focus {
+    box-shadow: rgba(165, 29, 42, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-danger.disabled,
+.btn-danger:disabled {
+    color: rgb(232, 230, 227);
+    background-color: rgb(165, 29, 42);
+    border-color: rgb(148, 26, 37);
+}
+.btn-danger:not(:disabled):not(.disabled).active,
+.btn-danger:not(:disabled):not(.disabled):active,
+.show > .btn-danger.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(151, 26, 38);
+    border-color: rgb(164, 29, 41);
+}
+.btn-danger:not(:disabled):not(.disabled).active:focus,
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+.show > .btn-danger.dropdown-toggle:focus {
+    box-shadow: rgba(165, 29, 42, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-light {
+    color: rgb(209, 205, 199);
+    background-color: rgb(27, 30, 31);
+    border-color: rgb(50, 54, 56);
+}
+.btn-light:hover {
+    color: rgb(209, 205, 199);
+    background-color: rgb(38, 41, 43);
+    border-color: rgb(57, 62, 64);
+}
+.btn-light.focus,
+.btn-light:focus {
+    box-shadow: rgba(27, 30, 31, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-light.disabled,
+.btn-light:disabled {
+    color: rgb(209, 205, 199);
+    background-color: rgb(27, 30, 31);
+    border-color: rgb(50, 54, 56);
+}
+.btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled):active,
+.show > .btn-light.dropdown-toggle {
+    color: rgb(209, 205, 199);
+    background-color: rgb(42, 45, 47);
+    border-color: rgb(59, 64, 66);
+}
+.btn-light:not(:disabled):not(.disabled).active:focus,
+.btn-light:not(:disabled):not(.disabled):active:focus,
+.show > .btn-light.dropdown-toggle:focus {
+    box-shadow: rgba(27, 30, 31, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-dark {
+    color: rgb(232, 230, 227);
+    background-color: rgb(44, 47, 49);
+    border-color: rgb(121, 112, 99);
+}
+.btn-dark:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(29, 32, 33);
+    border-color: rgb(129, 120, 106);
+}
+.btn-dark.focus,
+.btn-dark:focus {
+    box-shadow: rgba(44, 47, 49, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-dark.disabled,
+.btn-dark:disabled {
+    color: rgb(232, 230, 227);
+    background-color: rgb(44, 47, 49);
+    border-color: rgb(121, 112, 99);
+}
+.btn-dark:not(:disabled):not(.disabled).active,
+.btn-dark:not(:disabled):not(.disabled):active,
+.show > .btn-dark.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(24, 27, 28);
+    border-color: rgb(131, 122, 108);
+}
+.btn-dark:not(:disabled):not(.disabled).active:focus,
+.btn-dark:not(:disabled):not(.disabled):active:focus,
+.show > .btn-dark.dropdown-toggle:focus {
+    box-shadow: rgba(44, 47, 49, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-outline-primary {
+    color: rgb(51, 162, 255);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgb(0, 86, 179);
+}
+.btn-outline-primary:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 98, 204);
+    border-color: rgb(0, 86, 179);
+}
+.btn-outline-primary.focus,
+.btn-outline-primary:focus {
+    box-shadow: rgba(0, 98, 204, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+    color: rgb(51, 162, 255);
+    background-color: transparent;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-primary.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 98, 204);
+    border-color: rgb(0, 86, 179);
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: rgba(0, 98, 204, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-outline-secondary {
+    color: rgb(158, 150, 137);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgb(102, 94, 83);
+}
+.btn-outline-secondary:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(88, 95, 99);
+    border-color: rgb(102, 94, 83);
+}
+.btn-outline-secondary.focus,
+.btn-outline-secondary:focus {
+    box-shadow: rgba(88, 95, 99, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-outline-secondary.disabled,
+.btn-outline-secondary:disabled {
+    color: rgb(158, 150, 137);
+    background-color: transparent;
+}
+.btn-outline-secondary:not(:disabled):not(.disabled).active,
+.btn-outline-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-secondary.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(88, 95, 99);
+    border-color: rgb(102, 94, 83);
+}
+.btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-outline-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-secondary.dropdown-toggle:focus {
+    box-shadow: rgba(88, 95, 99, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-outline-success {
+    color: rgb(97, 217, 124);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgb(37, 156, 64);
+}
+.btn-outline-success:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(32, 134, 55);
+    border-color: rgb(37, 156, 64);
+}
+.btn-outline-success.focus,
+.btn-outline-success:focus {
+    box-shadow: rgba(32, 134, 55, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-outline-success.disabled,
+.btn-outline-success:disabled {
+    color: rgb(97, 217, 124);
+    background-color: transparent;
+}
+.btn-outline-success:not(:disabled):not(.disabled).active,
+.btn-outline-success:not(:disabled):not(.disabled):active,
+.show > .btn-outline-success.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(32, 134, 55);
+    border-color: rgb(37, 156, 64);
+}
+.btn-outline-success:not(:disabled):not(.disabled).active:focus,
+.btn-outline-success:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-success.dropdown-toggle:focus {
+    box-shadow: rgba(32, 134, 55, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-outline-info {
+    color: rgb(81, 212, 233);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgb(21, 151, 171);
+}
+.btn-outline-info:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(18, 130, 147);
+    border-color: rgb(21, 151, 171);
+}
+.btn-outline-info.focus,
+.btn-outline-info:focus {
+    box-shadow: rgba(18, 130, 147, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-outline-info.disabled,
+.btn-outline-info:disabled {
+    color: rgb(81, 212, 233);
+    background-color: transparent;
+}
+.btn-outline-info:not(:disabled):not(.disabled).active,
+.btn-outline-info:not(:disabled):not(.disabled):active,
+.show > .btn-outline-info.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(18, 130, 147);
+    border-color: rgb(21, 151, 171);
+}
+.btn-outline-info:not(:disabled):not(.disabled).active:focus,
+.btn-outline-info:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-info.dropdown-toggle:focus {
+    box-shadow: rgba(18, 130, 147, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-outline-warning {
+    color: rgb(255, 199, 30);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgb(176, 132, 0);
+}
+.btn-outline-warning:hover {
+    color: rgb(209, 205, 199);
+    background-color: rgb(200, 150, 0);
+    border-color: rgb(176, 132, 0);
+}
+.btn-outline-warning.focus,
+.btn-outline-warning:focus {
+    box-shadow: rgba(200, 150, 0, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-outline-warning.disabled,
+.btn-outline-warning:disabled {
+    color: rgb(255, 199, 30);
+    background-color: transparent;
+}
+.btn-outline-warning:not(:disabled):not(.disabled).active,
+.btn-outline-warning:not(:disabled):not(.disabled):active,
+.show > .btn-outline-warning.dropdown-toggle {
+    color: rgb(209, 205, 199);
+    background-color: rgb(200, 150, 0);
+    border-color: rgb(176, 132, 0);
+}
+.btn-outline-warning:not(:disabled):not(.disabled).active:focus,
+.btn-outline-warning:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-warning.dropdown-toggle:focus {
+    box-shadow: rgba(200, 150, 0, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-outline-danger {
+    color: rgb(223, 70, 85);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgb(148, 26, 37);
+}
+.btn-outline-danger:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(165, 29, 42);
+    border-color: rgb(148, 26, 37);
+}
+.btn-outline-danger.focus,
+.btn-outline-danger:focus {
+    box-shadow: rgba(165, 29, 42, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-outline-danger.disabled,
+.btn-outline-danger:disabled {
+    color: rgb(223, 70, 85);
+    background-color: transparent;
+}
+.btn-outline-danger:not(:disabled):not(.disabled).active,
+.btn-outline-danger:not(:disabled):not(.disabled):active,
+.show > .btn-outline-danger.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(165, 29, 42);
+    border-color: rgb(148, 26, 37);
+}
+.btn-outline-danger:not(:disabled):not(.disabled).active:focus,
+.btn-outline-danger:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-danger.dropdown-toggle:focus {
+    box-shadow: rgba(165, 29, 42, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-outline-light {
+    color: rgb(228, 226, 222);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgb(50, 54, 56);
+}
+.btn-outline-light:hover {
+    color: rgb(209, 205, 199);
+    background-color: rgb(27, 30, 31);
+    border-color: rgb(50, 54, 56);
+}
+.btn-outline-light.focus,
+.btn-outline-light:focus {
+    box-shadow: rgba(27, 30, 31, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-outline-light.disabled,
+.btn-outline-light:disabled {
+    color: rgb(228, 226, 222);
+    background-color: transparent;
+}
+.btn-outline-light:not(:disabled):not(.disabled).active,
+.btn-outline-light:not(:disabled):not(.disabled):active,
+.show > .btn-outline-light.dropdown-toggle {
+    color: rgb(209, 205, 199);
+    background-color: rgb(27, 30, 31);
+    border-color: rgb(50, 54, 56);
+}
+.btn-outline-light:not(:disabled):not(.disabled).active:focus,
+.btn-outline-light:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-light.dropdown-toggle:focus {
+    box-shadow: rgba(27, 30, 31, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-outline-dark {
+    color: rgb(195, 190, 182);
+    background-color: transparent;
+    background-image: none;
+    border-color: rgb(121, 112, 99);
+}
+.btn-outline-dark:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(44, 47, 49);
+    border-color: rgb(121, 112, 99);
+}
+.btn-outline-dark.focus,
+.btn-outline-dark:focus {
+    box-shadow: rgba(44, 47, 49, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-outline-dark.disabled,
+.btn-outline-dark:disabled {
+    color: rgb(195, 190, 182);
+    background-color: transparent;
+}
+.btn-outline-dark:not(:disabled):not(.disabled).active,
+.btn-outline-dark:not(:disabled):not(.disabled):active,
+.show > .btn-outline-dark.dropdown-toggle {
+    color: rgb(232, 230, 227);
+    background-color: rgb(44, 47, 49);
+    border-color: rgb(121, 112, 99);
+}
+.btn-outline-dark:not(:disabled):not(.disabled).active:focus,
+.btn-outline-dark:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-dark.dropdown-toggle:focus {
+    box-shadow: rgba(44, 47, 49, 0.5) 0px 0px 0px 0.2rem;
+}
+.btn-link {
+    color: rgb(51, 162, 255);
+    background-color: transparent;
+}
+.btn-link:hover {
+    color: rgb(97, 183, 255);
+    text-decoration-color: initial;
+    background-color: transparent;
+    border-color: transparent;
+}
+.btn-link.focus,
+.btn-link:focus {
+    text-decoration-color: initial;
+    border-color: transparent;
+    box-shadow: none;
+}
+.btn-link.disabled,
+.btn-link:disabled {
+    color: rgb(158, 150, 137);
+}
+.dropdown-toggle::after {
+    border-top-color: initial;
+    border-right-color: transparent;
+    border-bottom-color: initial;
+    border-left-color: transparent;
+}
+.dropdown-menu {
+    color: rgb(209, 205, 199);
+    list-style-image: initial;
+    background-color: rgb(24, 26, 27);
+    border-color: rgba(140, 130, 115, 0.15);
+}
+.dropup .dropdown-toggle::after {
+    border-top-color: initial;
+    border-right-color: transparent;
+    border-bottom-color: initial;
+    border-left-color: transparent;
+}
+.dropright .dropdown-toggle::after {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: initial;
+}
+.dropleft .dropdown-toggle::before {
+    border-top-color: transparent;
+    border-right-color: initial;
+    border-bottom-color: transparent;
+}
+.dropdown-divider {
+    border-top-color: rgb(53, 58, 60);
+}
+.dropdown-item {
+    color: rgb(209, 205, 199);
+    background-color: transparent;
+    border-color: initial;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: rgb(217, 213, 208);
+    text-decoration-color: initial;
+    background-color: rgb(27, 30, 31);
+}
+.dropdown-item.active,
+.dropdown-item:active {
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+    background-color: rgb(0, 98, 204);
+}
+.dropdown-item.disabled,
+.dropdown-item:disabled {
+    color: rgb(158, 150, 137);
+    background-color: transparent;
+}
+.dropdown-header {
+    color: rgb(158, 150, 137);
+}
+.input-group-text {
+    color: rgb(181, 175, 166);
+    background-color: rgb(35, 38, 39);
+    border-color: rgb(60, 65, 68);
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 98, 204);
+}
+.custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: rgb(24, 26, 27) 0px 0px 0px 1px,
+    rgba(0, 98, 204, 0.25) 0px 0px 0px 0.2rem;
+}
+.custom-control-input:active ~ .custom-control-label::before {
+    color: rgb(232, 230, 227);
+    background-color: rgb(45, 49, 51);
+}
+.custom-control-input:disabled ~ .custom-control-label {
+    color: rgb(158, 150, 137);
+}
+.custom-control-input:disabled ~ .custom-control-label::before {
+    background-color: rgb(35, 38, 39);
+}
+.custom-control-label::before {
+    background-color: rgb(40, 44, 45);
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: rgb(0, 98, 204);
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+}
+.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
+    background-color: rgb(0, 98, 204);
+}
+.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='%23fff' d='M0 2h4'/%3E%3C/svg%3E");
+}
+.custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
+    background-color: rgba(0, 98, 204, 0.5);
+}
+.custom-checkbox .custom-control-input:disabled:indeterminate ~ .custom-control-label::before {
+    background-color: rgba(0, 98, 204, 0.5);
+}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: rgb(0, 98, 204);
+}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E");
+}
+.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
+    background-color: rgba(0, 98, 204, 0.5);
+}
+.custom-select {
+    color: rgb(181, 175, 166);
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E");
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(60, 65, 68);
+}
+.custom-select:focus {
+    border-color: rgb(0, 67, 140);
+    outline-color: initial;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px inset,
+    rgba(0, 61, 127, 0.5) 0px 0px 5px;
+}
+.custom-select[multiple],
+.custom-select[size]:not([size="1"]) {
+    background-image: none;
+}
+.custom-select:disabled {
+    color: rgb(158, 150, 137);
+    background-color: rgb(35, 38, 39);
+}
+.custom-file-input:focus ~ .custom-file-control {
+    border-color: rgb(0, 67, 140);
+    box-shadow: rgba(0, 98, 204, 0.25) 0px 0px 0px 0.2rem;
+}
+.custom-file-input:focus ~ .custom-file-control::before {
+    border-color: rgb(0, 67, 140);
+}
+.custom-file-label {
+    color: rgb(181, 175, 166);
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(60, 65, 68);
+}
+.custom-file-label::after {
+    color: rgb(181, 175, 166);
+    background-color: rgb(35, 38, 39);
+    border-left-color: rgb(60, 65, 68);
+}
+.nav {
+    list-style-image: initial;
+}
+.nav-link:focus,
+.nav-link:hover {
+    text-decoration-color: initial;
+}
+.nav-link.disabled {
+    color: rgb(158, 150, 137);
+}
+.nav-tabs {
+    border-bottom-color: rgb(56, 61, 63);
+}
+.nav-tabs .nav-link {
+    border-color: transparent;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: rgb(53, 58, 60) rgb(53, 58, 60) rgb(56, 61, 63);
+}
+.nav-tabs .nav-link.disabled {
+    color: rgb(158, 150, 137);
+    background-color: transparent;
+    border-color: transparent;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: rgb(181, 175, 166);
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(56, 61, 63) rgb(56, 61, 63) rgb(48, 52, 54);
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 98, 204);
+}
+.navbar-brand:focus,
+.navbar-brand:hover {
+    text-decoration-color: initial;
+}
+.navbar-nav {
+    list-style-image: initial;
+}
+.navbar-toggler {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+    text-decoration-color: initial;
+}
+.navbar-toggler-icon {
+    background-image: initial;
+    background-color: initial;
+}
+.navbar-light .navbar-brand {
+    color: rgba(232, 230, 227, 0.9);
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: rgba(232, 230, 227, 0.9);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(232, 230, 227, 0.5);
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(232, 230, 227, 0.7);
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: rgba(232, 230, 227, 0.3);
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: rgba(232, 230, 227, 0.9);
+}
+.navbar-light .navbar-toggler {
+    color: rgba(232, 230, 227, 0.5);
+    border-color: rgba(140, 130, 115, 0.1);
+}
+.navbar-light .navbar-text {
+    color: rgba(232, 230, 227, 0.5);
+}
+.navbar-light .navbar-text a {
+    color: rgba(232, 230, 227, 0.9);
+}
+.navbar-light .navbar-text a:focus,
+.navbar-light .navbar-text a:hover {
+    color: rgba(232, 230, 227, 0.9);
+}
+.navbar-dark .navbar-brand {
+    color: rgb(232, 230, 227);
+}
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover {
+    color: rgb(232, 230, 227);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(232, 230, 227, 0.5);
+}
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(232, 230, 227, 0.75);
+}
+.navbar-dark .navbar-nav .nav-link.disabled {
+    color: rgba(232, 230, 227, 0.25);
+}
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: rgb(232, 230, 227);
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(232, 230, 227, 0.5);
+    border-color: rgba(48, 52, 54, 0.1);
+}
+.navbar-dark .navbar-text {
+    color: rgba(232, 230, 227, 0.5);
+}
+.navbar-dark .navbar-text a {
+    color: rgb(232, 230, 227);
+}
+.navbar-dark .navbar-text a:focus,
+.navbar-dark .navbar-text a:hover {
+    color: rgb(232, 230, 227);
+}
+.card {
+    background-color: rgb(24, 26, 27);
+    border-color: rgba(140, 130, 115, 0.13);
+}
+.card-link:hover {
+    text-decoration-color: initial;
+}
+.card-header {
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom-color: rgba(140, 130, 115, 0.13);
+}
+.card-header + .list-group .list-group-item:first-child {
+    border-top-color: initial;
+}
+.card-footer {
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top-color: rgba(140, 130, 115, 0.13);
+}
+.card-header-tabs {
+    border-bottom-color: initial;
+}
+@media (min-width: 576px) {
+    .card-group > .card + .card {
+        border-left-color: initial;
+    }
+}
+.breadcrumb {
+    list-style-image: initial;
+    background-color: rgb(35, 38, 39);
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    color: rgb(158, 150, 137);
+}
+.breadcrumb-item + .breadcrumb-item:hover::before {
+    text-decoration-color: initial;
+}
+.breadcrumb-item + .breadcrumb-item:hover::before {
+    text-decoration-color: initial;
+}
+.breadcrumb-item.active {
+    color: rgb(158, 150, 137);
+}
+.pagination {
+    list-style-image: initial;
+}
+.page-link {
+    color: rgb(51, 162, 255);
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(56, 61, 63);
+}
+.page-link:hover {
+    color: rgb(97, 183, 255);
+    text-decoration-color: initial;
+    background-color: rgb(35, 38, 39);
+    border-color: rgb(56, 61, 63);
+}
+.page-link:focus {
+    outline-color: initial;
+    box-shadow: rgba(0, 98, 204, 0.25) 0px 0px 0px 0.2rem;
+}
+.page-item.active .page-link {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 98, 204);
+    border-color: rgb(0, 86, 179);
+}
+.page-item.disabled .page-link {
+    color: rgb(158, 150, 137);
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(56, 61, 63);
+}
+.badge-primary {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 98, 204);
+}
+.badge-primary[href]:focus,
+.badge-primary[href]:hover {
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+    background-color: rgb(0, 78, 163);
+}
+.badge-secondary {
+    color: rgb(232, 230, 227);
+    background-color: rgb(88, 95, 99);
+}
+.badge-secondary[href]:focus,
+.badge-secondary[href]:hover {
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+    background-color: rgb(69, 74, 77);
+}
+.badge-success {
+    color: rgb(232, 230, 227);
+    background-color: rgb(32, 134, 55);
+}
+.badge-success[href]:focus,
+.badge-success[href]:hover {
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+    background-color: rgb(24, 101, 42);
+}
+.badge-info {
+    color: rgb(232, 230, 227);
+    background-color: rgb(18, 130, 147);
+}
+.badge-info[href]:focus,
+.badge-info[href]:hover {
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+    background-color: rgb(14, 98, 111);
+}
+.badge-warning {
+    color: rgb(209, 205, 199);
+    background-color: rgb(200, 150, 0);
+}
+.badge-warning[href]:focus,
+.badge-warning[href]:hover {
+    color: rgb(209, 205, 199);
+    text-decoration-color: initial;
+    background-color: rgb(169, 126, 0);
+}
+.badge-danger {
+    color: rgb(232, 230, 227);
+    background-color: rgb(165, 29, 42);
+}
+.badge-danger[href]:focus,
+.badge-danger[href]:hover {
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+    background-color: rgb(151, 26, 38);
+}
+.badge-light {
+    color: rgb(209, 205, 199);
+    background-color: rgb(27, 30, 31);
+}
+.badge-light[href]:focus,
+.badge-light[href]:hover {
+    color: rgb(209, 205, 199);
+    text-decoration-color: initial;
+    background-color: rgb(42, 45, 47);
+}
+.badge-dark {
+    color: rgb(232, 230, 227);
+    background-color: rgb(44, 47, 49);
+}
+.badge-dark[href]:focus,
+.badge-dark[href]:hover {
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+    background-color: rgb(24, 27, 28);
+}
+.jumbotron {
+    background-color: rgb(35, 38, 39);
+}
+.alert {
+    border-color: transparent;
+}
+.alert-heading {
+    color: inherit;
+}
+.alert-dismissible .close {
+    color: inherit;
+}
+.alert-primary {
+    color: rgb(124, 195, 255);
+    background-color: rgb(38, 42, 43);
+    border-color: rgb(0, 59, 123);
+}
+.alert-primary hr {
+    border-top-color: rgb(0, 63, 131);
+}
+.alert-primary .alert-link {
+    color: rgb(206, 202, 195);
+}
+.alert-secondary {
+    color: rgb(194, 188, 180);
+    background-color: rgb(40, 43, 44);
+    border-color: rgb(59, 64, 66);
+}
+.alert-secondary hr {
+    border-top-color: rgb(63, 68, 70);
+}
+.alert-secondary .alert-link {
+    color: rgb(210, 206, 200);
+}
+.alert-success {
+    color: rgb(153, 230, 171);
+    background-color: rgb(26, 62, 41);
+    border-color: rgb(37, 90, 50);
+}
+.alert-success hr {
+    border-top-color: rgb(39, 96, 52);
+}
+.alert-success .alert-link {
+    color: rgb(214, 210, 205);
+}
+.alert-info {
+    color: rgb(142, 227, 241);
+    background-color: rgb(20, 59, 67);
+    border-color: rgb(30, 89, 97);
+}
+.alert-info hr {
+    border-top-color: rgb(32, 93, 103);
+}
+.alert-info .alert-link {
+    color: rgb(214, 210, 205);
+}
+.alert-warning {
+    color: rgb(251, 215, 112);
+    background-color: rgb(81, 62, 0);
+    border-color: rgb(123, 92, 0);
+}
+.alert-warning hr {
+    border-top-color: rgb(130, 98, 0);
+}
+.alert-warning .alert-link {
+    color: rgb(205, 200, 194);
+}
+.alert-danger {
+    color: rgb(225, 134, 143);
+    background-color: rgb(67, 12, 17);
+    border-color: rgb(104, 18, 27);
+}
+.alert-danger hr {
+    border-top-color: rgb(110, 20, 29);
+}
+.alert-danger .alert-link {
+    color: rgb(203, 199, 192);
+}
+.alert-light {
+    color: rgb(153, 144, 131);
+    background-color: rgb(25, 27, 28);
+    border-color: rgb(34, 34, 69);
+}
+.alert-light hr {
+    border-top-color: rgb(35, 35, 75);
+}
+.alert-light .alert-link {
+    color: rgb(166, 159, 147);
+}
+.alert-dark {
+    color: rgb(213, 209, 204);
+    background-color: rgb(46, 50, 52);
+    border-color: rgb(64, 69, 71);
+}
+.alert-dark hr {
+    border-top-color: rgb(67, 73, 75);
+}
+.alert-dark .alert-link {
+    color: rgb(229, 227, 224);
+}
+.progress {
+    background-color: rgb(35, 38, 39);
+}
+.progress-bar {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 98, 204);
+}
+.progress-bar-striped {
+    background-image: linear-gradient(45deg,
+    rgba(24, 26, 27, 0.15) 25%,
+    rgba(0, 0, 0, 0) 25%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(24, 26, 27, 0.15) 50%,
+    rgba(24, 26, 27, 0.15) 75%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 0));
+}
+.list-group-item-action {
+    color: rgb(181, 175, 166);
+}
+.list-group-item-action:focus,
+.list-group-item-action:hover {
+    color: rgb(181, 175, 166);
+    text-decoration-color: initial;
+    background-color: rgb(27, 30, 31);
+}
+.list-group-item-action:active {
+    color: rgb(209, 205, 199);
+    background-color: rgb(35, 38, 39);
+}
+.list-group-item {
+    background-color: rgb(24, 26, 27);
+    border-color: rgba(140, 130, 115, 0.13);
+}
+.list-group-item:focus,
+.list-group-item:hover {
+    text-decoration-color: initial;
+}
+.list-group-item.disabled,
+.list-group-item:disabled {
+    color: rgb(158, 150, 137);
+    background-color: rgb(24, 26, 27);
+}
+.list-group-item.active {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 98, 204);
+    border-color: rgb(0, 86, 179);
+}
+.list-group-flush .list-group-item {
+    border-right-color: initial;
+    border-left-color: initial;
+}
+.list-group-flush:first-child .list-group-item:first-child {
+    border-top-color: initial;
+}
+.list-group-flush:last-child .list-group-item:last-child {
+    border-bottom-color: initial;
+}
+.list-group-item-primary {
+    color: rgb(124, 195, 255);
+    background-color: rgb(44, 48, 50);
+}
+.list-group-item-primary.list-group-item-action:focus,
+.list-group-item-primary.list-group-item-action:hover {
+    color: rgb(124, 195, 255);
+    background-color: rgb(51, 55, 57);
+}
+.list-group-item-primary.list-group-item-action.active {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 51, 106);
+    border-color: rgb(0, 104, 215);
+}
+.list-group-item-secondary {
+    color: rgb(194, 188, 180);
+    background-color: rgb(46, 50, 51);
+}
+.list-group-item-secondary.list-group-item-action:focus,
+.list-group-item-secondary.list-group-item-action:hover {
+    color: rgb(194, 188, 180);
+    background-color: rgb(53, 58, 60);
+}
+.list-group-item-secondary.list-group-item-action.active {
+    color: rgb(232, 230, 227);
+    background-color: rgb(46, 49, 51);
+    border-color: rgb(120, 111, 99);
+}
+.list-group-item-success {
+    color: rgb(153, 230, 171);
+    background-color: rgb(30, 72, 48);
+}
+.list-group-item-success.list-group-item-action:focus,
+.list-group-item-success.list-group-item-action:hover {
+    color: rgb(153, 230, 171);
+    background-color: rgb(34, 83, 54);
+}
+.list-group-item-success.list-group-item-action.active {
+    color: rgb(232, 230, 227);
+    background-color: rgb(17, 70, 29);
+    border-color: rgb(43, 179, 74);
+}
+.list-group-item-info {
+    color: rgb(142, 227, 241);
+    background-color: rgb(24, 71, 78);
+}
+.list-group-item-info.list-group-item-action:focus,
+.list-group-item-info.list-group-item-action:hover {
+    color: rgb(142, 227, 241);
+    background-color: rgb(28, 81, 89);
+}
+.list-group-item-info.list-group-item-action.active {
+    color: rgb(232, 230, 227);
+    background-color: rgb(10, 67, 77);
+    border-color: rgb(25, 173, 198);
+}
+.list-group-item-warning {
+    color: rgb(251, 215, 112);
+    background-color: rgb(92, 70, 0);
+}
+.list-group-item-warning.list-group-item-action:focus,
+.list-group-item-warning.list-group-item-action:hover {
+    color: rgb(251, 215, 112);
+    background-color: rgb(107, 81, 0);
+}
+.list-group-item-warning.list-group-item-action.active {
+    color: rgb(232, 230, 227);
+    background-color: rgb(106, 80, 3);
+    border-color: rgb(208, 156, 6);
+}
+.list-group-item-danger {
+    color: rgb(225, 134, 143);
+    background-color: rgb(78, 14, 20);
+}
+.list-group-item-danger.list-group-item-action:focus,
+.list-group-item-danger.list-group-item-action:hover {
+    color: rgb(225, 134, 143);
+    background-color: rgb(91, 16, 24);
+}
+.list-group-item-danger.list-group-item-action.active {
+    color: rgb(232, 230, 227);
+    background-color: rgb(91, 22, 29);
+    border-color: rgb(171, 42, 54);
+}
+.list-group-item-light {
+    color: rgb(153, 144, 131);
+    background-color: rgb(25, 27, 28);
+}
+.list-group-item-light.list-group-item-action:focus,
+.list-group-item-light.list-group-item-action:hover {
+    color: rgb(153, 144, 131);
+    background-color: rgb(32, 35, 36);
+}
+.list-group-item-light.list-group-item-action.active {
+    color: rgb(232, 230, 227);
+    background-color: rgb(95, 103, 107);
+    border-color: rgb(83, 90, 94);
+}
+.list-group-item-dark {
+    color: rgb(213, 209, 204);
+    background-color: rgb(55, 60, 62);
+}
+.list-group-item-dark.list-group-item-action:focus,
+.list-group-item-dark.list-group-item-action:hover {
+    color: rgb(213, 209, 204);
+    background-color: rgb(62, 67, 70);
+}
+.list-group-item-dark.list-group-item-action.active {
+    color: rgb(232, 230, 227);
+    background-color: rgb(23, 24, 25);
+    border-color: rgb(130, 121, 107);
+}
+.close {
+    color: rgb(232, 230, 227);
+    text-shadow: rgb(24, 26, 27) 0px 1px 0px;
+}
+.close:focus,
+.close:hover {
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+}
+button.close {
+    background-color: transparent;
+    border-color: initial;
+}
+.modal {
+    outline-color: initial;
+}
+.modal-content {
+    background-color: rgb(24, 26, 27);
+    border-color: rgba(140, 130, 115, 0.2);
+    outline-color: initial;
+}
+.modal-backdrop {
+    background-color: rgb(0, 0, 0);
+}
+.modal-header {
+    border-bottom-color: rgb(53, 58, 60);
+}
+.modal-footer {
+    border-top-color: rgb(53, 58, 60);
+}
+.tooltip {
+    text-decoration-color: initial; text-shadow: none;
+}
+.tooltip .arrow::before {
+    border-color: transparent;
+}
+.bs-tooltip-auto[x-placement^="top"] .arrow::before,
+.bs-tooltip-top .arrow::before {
+    border-top-color: rgb(140, 130, 115);
+}
+.bs-tooltip-auto[x-placement^="right"] .arrow::before,
+.bs-tooltip-right .arrow::before {
+    border-right-color: rgb(140, 130, 115);
+}
+.bs-tooltip-auto[x-placement^="bottom"] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+    border-bottom-color: rgb(140, 130, 115);
+}
+.bs-tooltip-auto[x-placement^="left"] .arrow::before,
+.bs-tooltip-left .arrow::before {
+    border-left-color: rgb(140, 130, 115);
+}
+.tooltip-inner {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 0, 0);
+}
+.popover {
+    text-decoration-color: initial;
+    text-shadow: none;
+    background-color: rgb(24, 26, 27);
+    border-color: rgba(140, 130, 115, 0.2);
+}
+.popover .arrow::after, .popover .arrow::before {
+    border-color: transparent;
+}
+.bs-popover-auto[x-placement^="top"] .arrow::before,
+.bs-popover-top .arrow::before {
+    border-top-color: rgba(140, 130, 115, 0.25);
+}
+.bs-popover-auto[x-placement^="top"] .arrow::after,
+.bs-popover-top .arrow::after {
+    border-top-color: rgb(48, 52, 54);
+}
+.bs-popover-auto[x-placement^="right"] .arrow::before,
+.bs-popover-right .arrow::before {
+    border-right-color: rgba(140, 130, 115, 0.25);
+}
+.bs-popover-auto[x-placement^="right"] .arrow::after,
+.bs-popover-right .arrow::after {
+    border-right-color: rgb(48, 52, 54);
+}
+.bs-popover-auto[x-placement^="bottom"] .arrow::before,
+.bs-popover-bottom .arrow::before {
+    border-bottom-color: rgba(140, 130, 115, 0.25);
+}
+.bs-popover-auto[x-placement^="bottom"] .arrow::after,
+.bs-popover-bottom .arrow::after {
+    border-bottom-color: rgb(48, 52, 54);
+}
+.bs-popover-auto[x-placement^="bottom"] .popover-header::before,
+.bs-popover-bottom .popover-header::before {
+    border-bottom-color: rgb(50, 54, 57);
+}
+.bs-popover-auto[x-placement^="left"] .arrow::before,
+.bs-popover-left .arrow::before {
+    border-left-color: rgba(140, 130, 115, 0.25);
+}
+.bs-popover-auto[x-placement^="left"] .arrow::after,
+.bs-popover-left .arrow::after {
+    border-left-color: rgb(48, 52, 54);
+}
+.popover-header {
+    color: inherit;
+    background-color: rgb(29, 31, 32);
+    border-bottom-color: rgb(54, 58, 60);
+}
+.popover-body {
+    color: rgb(209, 205, 199);
+}
+.carousel-control-next,
+.carousel-control-prev {
+    color: rgb(232, 230, 227);
+}
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+    color: rgb(232, 230, 227);
+    text-decoration-color: initial;
+    outline-color: initial;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-image: initial;
+    background-color: transparent;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-indicators {
+    list-style-image: initial;
+}
+.carousel-indicators li {
+    background-color: rgba(24, 26, 27, 0.5);
+}
+.carousel-indicators .active {
+    background-color: rgb(24, 26, 27);
+}
+.carousel-caption {
+    color: rgb(232, 230, 227);
+}
+.bg-primary {
+    background-color: rgb(0, 98, 204) !important;
+}
+a.bg-primary:focus,
+a.bg-primary:hover,
+button.bg-primary:focus,
+button.bg-primary:hover {
+    background-color: rgb(0, 78, 163) !important;
+}
+.bg-secondary {
+    background-color: rgb(88, 95, 99) !important;
+}
+a.bg-secondary:focus,
+a.bg-secondary:hover,
+button.bg-secondary:focus,
+button.bg-secondary:hover {
+    background-color: rgb(69, 74, 77) !important;
+}
+.bg-success {
+    background-color: rgb(32, 134, 55) !important;
+}
+a.bg-success:focus,
+a.bg-success:hover,
+button.bg-success:focus,
+button.bg-success:hover {
+    background-color: rgb(24, 101, 42) !important;
+}
+.bg-info {
+    background-color: rgb(18, 130, 147) !important;
+}
+a.bg-info:focus,
+a.bg-info:hover,
+button.bg-info:focus,
+button.bg-info:hover {
+    background-color: rgb(14, 98, 111) !important;
+}
+.bg-warning {
+    background-color: rgb(200, 150, 0) !important;
+}
+a.bg-warning:focus,
+a.bg-warning:hover,
+button.bg-warning:focus,
+button.bg-warning:hover {
+    background-color: rgb(169, 126, 0) !important;
+}
+.bg-danger {
+    background-color: rgb(165, 29, 42) !important;
+}
+a.bg-danger:focus,
+a.bg-danger:hover,
+button.bg-danger:focus,
+button.bg-danger:hover {
+    background-color: rgb(151, 26, 38) !important;
+}
+.bg-light {
+    background-color: rgb(27, 30, 31) !important;
+}
+a.bg-light:focus,
+a.bg-light:hover,
+button.bg-light:focus,
+button.bg-light:hover {
+    background-color: rgb(42, 45, 47) !important;
+}
+.bg-dark {
+    background-color: rgb(44, 47, 49) !important;
+}
+a.bg-dark:focus,
+a.bg-dark:hover,
+button.bg-dark:focus,
+button.bg-dark:hover {
+    background-color: rgb(24, 27, 28) !important;
+}
+.bg-white {
+    background-color: rgb(24, 26, 27) !important;
+}
+.bg-transparent {
+    background-color: transparent !important;
+}
+.border {
+    border-color: rgb(56, 61, 63) !important;
+}
+.border-top {
+    border-top-color: rgb(56, 61, 63) !important;
+}
+.border-right {
+    border-right-color: rgb(56, 61, 63) !important;
+}
+.border-bottom {
+    border-bottom-color: rgb(56, 61, 63) !important;
+}
+.border-left {
+    border-left-color: rgb(56, 61, 63) !important;
+}
+.border-0 {
+    border-color: initial !important;
+}
+.border-top-0 {
+    border-top-color: initial !important;
+}
+.border-right-0 {
+    border-right-color: initial !important;
+}
+.border-bottom-0 {
+    border-bottom-color: initial !important;
+}
+.border-left-0 {
+    border-left-color: initial !important;
+}
+.border-primary {
+    border-color: rgb(0, 86, 179) !important;
+}
+.border-secondary {
+    border-color: rgb(102, 94, 83) !important;
+}
+.border-success {
+    border-color: rgb(37, 156, 64) !important;
+}
+.border-info {
+    border-color: rgb(21, 151, 171) !important;
+}
+.border-warning {
+    border-color: rgb(176, 132, 0) !important;
+}
+.border-danger {
+    border-color: rgb(148, 26, 37) !important;
+}
+.border-light {
+    border-color: rgb(50, 54, 56) !important;
+}
+.border-dark {
+    border-color: rgb(121, 112, 99) !important;
+}
+.border-white {
+    border-color: rgb(48, 52, 54) !important;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive embed,
+.embed-responsive iframe,
+.embed-responsive object,
+.embed-responsive video {
+    border-color: initial;
+}
+.sr-only {
+    border-color: initial;
+}
+.text-white {
+    color: rgb(232, 230, 227) !important;
+}
+.text-primary {
+    color: rgb(51, 162, 255) !important;
+}
+a.text-primary:focus,
+a.text-primary:hover {
+    color: rgb(82, 176, 255) !important;
+}
+.text-secondary {
+    color: rgb(158, 150, 137) !important;
+}
+a.text-secondary:focus,
+a.text-secondary:hover {
+    color: rgb(175, 168, 157) !important;
+}
+.text-success {
+    color: rgb(97, 217, 124) !important;
+}
+a.text-success:focus,
+a.text-success:hover {
+    color: rgb(126, 224, 148) !important;
+}
+.text-info {
+    color: rgb(81, 212, 233) !important;
+}
+a.text-info:focus,
+a.text-info:hover {
+    color: rgb(112, 220, 238) !important;
+}
+.text-warning {
+    color: rgb(255, 199, 30) !important;
+}
+a.text-warning:focus,
+a.text-warning:hover {
+    color: rgb(255, 205, 56) !important;
+}
+.text-danger {
+    color: rgb(223, 70, 85) !important;
+}
+a.text-danger:focus,
+a.text-danger:hover {
+    color: rgb(224, 79, 93) !important;
+}
+.text-light {
+    color: rgb(228, 226, 222) !important;
+}
+a.text-light:focus,
+a.text-light:hover {
+    color: rgb(212, 208, 203) !important;
+}
+.text-dark {
+    color: rgb(195, 190, 182) !important;
+}
+a.text-dark:focus,
+a.text-dark:hover {
+    color: rgb(211, 208, 202) !important;
+}
+.text-muted {
+    color: rgb(158, 150, 137) !important;
+}
+.text-hide {
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border-color: initial;
+}
+.fa-border {
+    border-color: rgb(53, 57, 59);
+}
+.fa-inverse {
+    color: rgb(232, 230, 227);
+}
+.sr-only {
+    border-color: initial;
+}
+
+/* Override Style */
+.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+
+.row {
+margin-right: 0;
+}

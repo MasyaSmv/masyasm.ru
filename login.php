@@ -1,14 +1,18 @@
+<?php
+    require_once("header.php")
+?>
+
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/sig_in.css?v=1.0.0.0">
+<link rel="stylesheet" type="text/css" href="css/login.css?v=1.0.0.2">
 <!------ Include the above in your HEAD tag ---------->
 
 <div class="container" style="color: white;">
 
 
     <div class="kpx_login">
-        <h3 class="kpx_authTitle">Login or <a href="#">Sign up</a></h3>
+        <h3 class="kpx_authTitle">Войти / <a href="sign_up.php">Зарегистрироваться</a></h3>
         <div class="row kpx_row-sm-offset-3 kpx_socialButtons">
           <div class="col-xs-2 col-sm-2">
             <a href="#" class="btn btn-lg btn-block kpx_btn-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
@@ -54,7 +58,7 @@
 		<div class="row kpx_row-sm-offset-3 kpx_loginOr">
 			<div class="col-xs-12 col-sm-6">
 				<hr class="kpx_hrOr">
-				<span class="kpx_spanOr">or</span>
+				<span class="kpx_spanOr">или</span>
 			</div>
 		</div>
 
@@ -71,9 +75,9 @@
 						<span class="input-group-addon"><span class="fa fa-key"></span></span>
 						<input  type="password" class="form-control" name="password" placeholder="Password">
 					</div>
-                    <span class="tag tag-danger">Password Error!</span> | <span class="tag tag-success">Login success!</span> | <span class="tag tag-warning">Some of password must not be empty!</span>
-                    <hr />
-					<button class="btn btn-lg btn-outline-primary btn-block" type="submit"><i class="fa fa-sign-in"></i> Login</button>
+
+          <hr />
+					<button class="btn btn-lg btn-outline-primary btn-block" type="submit"><i class="fa fa-sign-in"></i> Войти</button>
 				</form>
 			</div>
     	</div>
@@ -83,14 +87,14 @@
 				<label class="custom-control custom-checkbox">
                           <input type="checkbox" class="custom-control-input" value="remember-me">
                           <span class="custom-control-indicator"></span>
-                          <span class="custom-control-description">Remember me!</span>
+                          <span class="custom-control-description">Запомнить меня!</span>
                         </label>
                         </p>
 
 			</div>
 			<div class="col-xs-12 col-sm-3">
 				<p class="kpx_forgotPwd">
-					<a href="#">Forgot password?</a>
+					<a href="#">Забыли пароль?</a>
 				</p>
 			</div>
 
