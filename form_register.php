@@ -25,10 +25,10 @@
     // Иначе сообщение о том что залогинен
     if (!isset($_SESSION["email"]) && !isset($_SESSION["password"])) {
 ?>
-        <div id="form_register">
+        <div id="sign_up.php">
             <h2>Форма регистрации</h2>
 
-            <form action="register.php" method="POST" name="form_register">
+            <form action="register.php" method="POST" name="sign_up.php">
                 <table>
                     <tbody>
                         <tr>

@@ -17,5 +17,5 @@ if ($mysqli -> connect_errno) {
 // кодировка подключения
 $mysqli ->set_charset('utf8');
 
-$address_site = "http://localhost/Registration-and-authorization-on-session/Registration-and-authorization-on-session/"
+$address_site = "http://localhost/Registration-and-authorization-on-session/"
 ?>

@@ -2,15 +2,25 @@
     require_once("header.php")
 ?>
 
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/login.css?v=1.0.0.2">
-<!------ Include the above in your HEAD tag ---------->
+  <!-- Блок вывода сообщений -->
+  <div class="block_for_message">
+    <?php
+      if (isset($_SESSION["error_messages"]) && !empty($_SESSION["error_messages"])) {
+        echo $_SESSION["error_messages"];
+
+        // Уничтожение ошибки, что бы не появилась при обновлении старницы
+        unset($_SESSION["error_messages"]);
+      }
+      if (isset($_SESSION["success_messages"]) && !empty($_SESSION["success_messages"])) {
+        echo $_SESSION["success_messages"];
+
+        // Уничтожение ошибки, что бы не появилась при обновлении страницы
+        unset($_SESSION["success_messages"]);
+      }
+      ?>
+  </div>
 
 <div class="container" style="color: white;">
-
-
     <div class="kpx_login">
         <h3 class="kpx_authTitle">Войти / <a href="sign_up.php">Зарегистрироваться</a></h3>
         <div class="row kpx_row-sm-offset-3 kpx_socialButtons">

@@ -26,16 +26,6 @@
     if (!isset($_SESSION["email"]) && !isset($_SESSION["password"])) {
 ?>
 
-
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/sign_up.css?v=1.0.0.1">
-<!------ Include the above in your HEAD tag ---------->
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-
-
 <div class="row justify-content-center">
 <div class="col-md-6" style="padding-top:3%;">
 <div class="card" style="background-color: rgb(24, 26, 27); border-color: rgba(140, 130, 115, 0.13);">
@@ -43,8 +33,9 @@
 	<a href="login.php" class="float-right btn btn-outline-primary mt-1">Войти</a>
 	<h4 class="card-title mt-2">Зарегистрироваться</h4>
 </header>
+<div id="sign_up.php">
 <article class="card-body">
-<form>
+<form action="register.php" method="POST" name="sign_up.php">
     <div class="form-group">
 		<label>Войти</label>
 		<input type="text" class="form-control" name="login" required="required" placeholder="">
@@ -101,23 +92,21 @@
     </div> <!-- form-group// -->
     <small class="text-muted">Нажимая кнопку «Зарегистрироваться», вы подтверждаете, что принимаете наши <br> Условия использования и Политика конфиденциальности.</small>
 </form>
-</article> <!-- card-body end .// -->
+</article>
+</div> <!-- card-body end .// -->
 <div class="border-top card-body text-center" style="border-top-color: rgb(56, 61, 63) !important;;">Уже есть аккаунт? <a href="login.php">Войти</a></div>
 </div> <!-- card.// -->
 </div> <!-- col.//-->
-
 </div> <!-- row.//-->
-
-
 </div>
 <!--container end.//-->
 
 <?php
     } else {
 ?>
-        <div id="autorized">
-                <h2>Вы уже авторизованы</h2>
-        </div>
+	<div id="autorized">
+		<h2>Вы уже авторизованы</h2>
+	</div>
 <?php
 }
 ?>
