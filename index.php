@@ -8,7 +8,7 @@ require_once("header.php");
     <iframe width="560" height="315" style="height: 29em; width: -webkit-fill-available;" src="https://www.youtube.com/embed/RNfHTuL2sPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<table class="table table-hover table-sm table-dark table-responsive-md">
+<table class="table table-hover table-sklad table-sm table-dark table-responsive-md">
 <thead class="thead-dark">
     <tr>
       <th scope="col">Наименование</th>

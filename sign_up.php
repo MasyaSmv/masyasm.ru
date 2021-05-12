@@ -30,14 +30,14 @@
 <div class="col-md-6" style="padding-top:3%;">
 <div class="card" style="background-color: rgb(24, 26, 27); border-color: rgba(140, 130, 115, 0.13);">
 <header class="card-header" style="background-color: rgba(0, 0, 0, 0.03); border-bottom-color: rgba(140, 130, 115, 0.13);">
-	<a href="login.php" class="float-right btn btn-outline-primary mt-1">Войти</a>
-	<h4 class="card-title mt-2">Зарегистрироваться</h4>
+	<!-- <a href="login.php" class="float-right btn btn-outline-primary mt-1">Войти</a> -->
+	<h4 class="card-title mt-2">Регистрация</h4>
 </header>
 <div id="sign_up.php">
 <article class="card-body">
 <form action="register.php" method="POST" name="sign_up.php">
     <div class="form-group">
-		<label>Войти</label>
+		<label>Логин</label>
 		<input type="text" class="form-control" name="login" required="required" placeholder="">
 	</div> <!-- form-group end.// -->
 	<div class="form-row">

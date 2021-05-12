@@ -1,7 +1,4 @@
-/*
-    @hiercelik - hiercelik.net
-    @koalapix - koalapix.com
-*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web&subset=latin,latin-ext);
 @media (min-width: 768px) {
@@ -199,8 +196,8 @@ hr {
   background-color: #495057;
 }
 
-.custom-control-input {
-  position: relative;
+.custom-control-input.remember {
+  position: absolute;
   z-index: -1;
   opacity: 1;
 }
@@ -211,6 +208,10 @@ hr {
 
 .tag.tag-danger {
   padding-left: 33px;
+}
+
+.kpx_authTitle {
+  font-family: 'Titillium Web', sans-serif;
 }
 
 @media (min-width: 768px) {
