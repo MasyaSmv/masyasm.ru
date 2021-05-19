@@ -89,6 +89,7 @@ a {
 a:hover {
     color: rgb(97, 183, 255);
     text-decoration-color: initial;
+    text-decoration: none;
 }
 a:not([href]):not([tabindex]) {
     color: inherit;

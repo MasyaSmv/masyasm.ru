@@ -6,6 +6,14 @@
   }
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 /* Что бы логотип был рядом с меню */
 .navbar.navbar-light.nav-logo {
   display: flex;
