@@ -10,12 +10,8 @@ body {
     font-family: 'Titillium Web', sans-serif;
     background-color: rgb(24, 26, 27);
 }
-a{
-    color:#ff5400;
-}
+
 a:hover {
-    opacity: 0.8;
-    color:#ff5400;
     text-decoration:none;
 }
 .kpx_login .kpx_authTitle {

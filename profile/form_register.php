@@ -10,7 +10,7 @@
 	<body>
 
 		<?php
-			require_once("header.php");
+			require_once("../header.php");
 
 			// Проверка почты и пароля
 			if(!isset($_SESSION['email']) && !isset($_SESSION['password'])){
@@ -54,16 +54,16 @@
 						</div>
 
 						<div class="form-group">
-							<label>Email</label>
-							<input type="email" class="form-control" name="email" minlength="2" maxlength="100" required />
-							<div id="error_email_message" class="from_registretion message_error"></div> <!-- Сообщение ошибки почты (надо CSS добавить) -->
-							<small class="form-text text-muted">Если введешь, тутже окажешься зарегистрированным на всех гей-сайтах.</small>
+							<label for="frmEmailA">Email</label>
+							<input type="email" class="form-control" id="frmEmailA" name="email" autocomplete="email" minlength="2" maxlength="100" required />
+							<div id="error_email_message" class="from_registretion message_error" style="color: red;"></div> <!-- Сообщение ошибки почты (надо CSS добавить) -->
+							<small class="form-text text-muted">Если введешь, тут же окажешься зарегистрированным на всех гей-сайтах мира.</small>
 						</div>
 
 						<div class="form-group">
 							<label>Пароль</label>
-							<input type="password" class="form-control" name="password" minlength="6" maxlength="100" required placeholder="Минимум 6 символов" />
-							<div id="error_password_message" class="form_registration message_error"></div> <!-- Сообщение ошибки пароля (надо CSS добавить) -->
+							<input type="password" class="form-control" autocomplete="new-password" name="password" minlength="6" maxlength="100" required placeholder="Минимум 6 символов" />
+							<div id="error_password_message" class="form_registration message_error" style="margin-bottom: -1em; color: red;"></div> <!-- Сообщение ошибки пароля (надо CSS добавить) -->
 						</div>
 
 						<!-- Кнопка регистрации -->

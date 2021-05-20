@@ -2,7 +2,7 @@
 
 	session_start();
 
-	require_once("dbconnect.php");
+	require_once("../dbconnect.php");
 
 	if(isset($_POST["btn_submit_auth"])){
 
@@ -13,7 +13,7 @@
 			// if($_SESSION["rand_captcha"] != $captcha){
 
 			// 	$message = "<p class='message_error'><strong>Ошибка!</strong> Вы ввели не правильную капчу </p>";
-			// 	redirect_to($message, 'site/form_auth.php');
+			// 	redirect_to($message, 'site/profile/form_auth.php');
 			// }
 
 			//======= Обработка адреса электронной почты ============
@@ -30,19 +30,19 @@
 					if(!preg_match($reg_email, $email)){
 
 						$message = "<p class='message_error'><strong>Ошибка!</strong> Вы ввели адрес электронной почты в неправильном формате </p>";
-						redirect_to($message, 'site/form_auth.php');
+						redirect_to($message, 'site/profile/form_auth.php');
 					}
 
 				}else{
 
 					$message = "<p class='message_error'><strong>Ошибка!</strong> Укажите адрес Вашей электронной почты</p>";
-					redirect_to($message, 'site/form_auth.php');
+					redirect_to($message, 'site/profile/form_auth.php');
 				}
 
 			}else{
 
 				$message = "<p class='message_error'><strong>Ошибка!</strong> Отсутствует поле для ввода адреса электронной почты</p>";
-				redirect_to($message, 'site/form_auth.php');
+				redirect_to($message, 'site/profile/form_auth.php');
 			}
 
 			//======= Обработка пароля ============
@@ -58,13 +58,13 @@
 				}else{
 
 					$message = "<p class='message_error'><strong>Ошибка!</strong> Укажите Ваш пароль</p>";
-					redirect_to($message, 'site/form_auth.php');
+					redirect_to($message, 'site/profile/form_auth.php');
 				}
 
 			}else{
 
 				$message = "<p class='message_error'><strong>Ошибка!</strong> Отсутствует поле для ввода пароля</p>";
-				redirect_to($message, 'site/form_auth.php');
+				redirect_to($message, 'site/profile/form_auth.php');
 			}
 
 			$result_query_select = $mysqli->query("SELECT first_name, last_name FROM `users` WHERE email = '".$email."' AND password = '".$password."'");
@@ -72,7 +72,7 @@
 			if(!$result_query_select){
 
 				$message = "<p class='message_error'><strong>Ошибка!</strong> Ошибка запроса на выборке пользователя из базы данных. </p><p>Описание ошибки: $mysqli->error <br /> Код ошибки: $mysqli->errno </p>";
-				redirect_to($message, 'site/form_auth.php');
+				redirect_to($message, 'site/profile/form_auth.php');
 			}else{
 
 				if($result_query_select->num_rows == 1){
@@ -92,7 +92,7 @@
 				}else{
 
 					$message = "<p class='message_error'><strong>Ошибка!</strong> Вы ввели неправильный адрес электронной почты и/или пароль </p>";
-					redirect_to($message, 'site/form_auth.php');
+					redirect_to($message, 'site/profile/form_auth.php');
 				}
 
 			}
@@ -100,7 +100,7 @@
 		// }else{
 
 		// 	$message = "<p class='message_error'><strong>Ошибка!</strong> Отсутствует поле для ввода капчи </p>";
-		// 	redirect_to($message, 'site/form_auth.php');
+		// 	redirect_to($message, 'site/profile/form_auth.php');
 		// }
 
 	}else{

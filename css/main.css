@@ -1,0 +1,19 @@
+.pizdec {
+    text-align: center;
+}
+
+.container.head-container {
+    border-color: #343a40;
+    border-style: solid;
+    border-radius: 20px;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+.container.body-container {
+    border-color: #343a40;
+    border-style: solid;
+    border-radius: 20px;
+    height: auto;
+    margin-top: 2em;
+}

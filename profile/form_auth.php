@@ -9,7 +9,7 @@
 	<body>
 		<!-- Подключение шапки с линками -->
 		<?php
-			require_once("header.php");
+			require_once("../header.php");
 
 			// Проверка почты с паролем
 			if(!isset($_SESSION['email']) && !isset($_SESSION['password'])){
@@ -96,16 +96,16 @@
 				<div class="col-xs-12 col-sm-6">
 					<form class="kpx_loginForm" action="auth.php" autocomplete="off" method="POST" name="form_auth">
 					<div class="input-group">
-						<span class="input-group-addon"><span class="fa fa-user"></span></span>
-						<input type="email" class="form-control" id="floatingInputGrid" name="email" minlength="2" maxlength="100" required placeholder="example@example.com" />
+						<span class="input-group-addon"><span class="fa fa-user" style="padding-top: 10px;"></span></span>
+						<input type="email" class="form-control" autocomplete="email" id="floatingInputGrid" name="email" minlength="2" maxlength="100" required placeholder="example@example.com" />
 						<!-- <span id="error_email_message" class="message_error"></span> Сообщение об ошибке почты (некорректно отображается, надо исправить) -->
 					</div>
 
 				<hr />
 
 					<div class="input-group">
-						<span class="input-group-addon"><span class="fa fa-key"></span></span>
-						<input type="password" class="form-control" name="password" minlength="6" maxlength="100" required placeholder="Минимум 6 символов" /><br />
+						<span class="input-group-addon"><span class="fa fa-key" style="padding-top: 10px;"></span></span>
+						<input type="password" class="form-control" name="password" autocomplete="current-password" minlength="6" maxlength="100" required placeholder="Минимум 6 символов" /><br />
 						<!-- <span id="error_password_message" class="message_error"></span> Сообщение об ошибке пароля (некорректно отображается, надо исправить) -->
 					</div>
 

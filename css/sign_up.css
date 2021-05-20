@@ -87,7 +87,7 @@ a {
     background-color: transparent;
 }
 a:hover {
-    color: rgb(97, 183, 255);
+    color: rgb(255, 255, 255);
     text-decoration-color: initial;
     text-decoration: none;
 }

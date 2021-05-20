@@ -8,6 +8,7 @@
 
 a {
   text-decoration: none;
+  vertical-align: middle;
 }
 
 a:hover {
@@ -31,4 +32,39 @@ a:hover {
 
 .navbar-brand {
   font-family: 'RocknRoll One', sans-serif;
+}
+
+.welcome {
+  padding-right: 5em;
+  margin-top: 0.6em;
+   font-family: 'RocknRoll One', sans-serif;
+}
+
+.btn-menu-lc {
+  border: none;
+  background: none;
+}
+
+
+.dropdown-item.outh:hover {
+  background-color: #6c757d99;
+}
+
+.dropdown-item.outh:focus {
+  background-color: #6c757d99;
+}
+
+.dropdown-item.drop-menu-name.img-name {
+  padding-left: 3%;
+}
+
+.header-drop-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dropdown-menu.links.show {
+  width: max-content;
+  padding-right: 1em;
 }

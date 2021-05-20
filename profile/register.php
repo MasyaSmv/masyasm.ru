@@ -2,7 +2,7 @@
 
 	session_start();
 
-	require_once("dbconnect.php");
+	require_once("../dbconnect.php");
 
 	if(isset($_POST["btn_submit_register"])){
 
@@ -13,7 +13,7 @@
 			// if($_SESSION["rand_captcha"] != $captcha){
 
 			// 	$message = "<p class='message_error'><strong>Ошибка!</strong> Вы ввели не правильную капчу </p>";
-			// 	redirect_to($message, 'site/form_register.php');
+			// 	redirect_to($message, 'site/profile/form_register.php');
 			// }
 
 			//======= Обработка имени ============
@@ -27,13 +27,13 @@
 				}else{
 
 					$message = "<p class='message_error'><strong>Ошибка!</strong> Укажите Ваше имя</p>";
-					redirect_to($message, 'site/form_register.php');
+					redirect_to($message, 'site/profile/form_register.php');
 				}
 
 			}else{
 
 				$message = "<p class='message_error'><strong>Ошибка!</strong> Отсутствует поле с именем </p>";
-				redirect_to($message, 'site/form_register.php');
+				redirect_to($message, 'site/profile/form_register.php');
 			}
 
 			//======= Обработка фамилии ============
@@ -47,13 +47,13 @@
 				}else{
 
 					$message = "<p class='message_error'><strong>Ошибка!</strong> Укажите Вашу фамилию</p>";
-					redirect_to($message, 'site/form_register.php');
+					redirect_to($message, 'site/profile/form_register.php');
 				}
 
 			}else{
 
 				$message = "<p class='message_error'><strong>Ошибка!</strong> Отсутствует поле с фамилией </p>";
-				redirect_to($message, 'site/form_register.php');
+				redirect_to($message, 'site/profile/form_register.php');
 			}
 
 			//======= Обработка адреса электронной почты ============
@@ -70,7 +70,7 @@
 					if(!preg_match($reg_email, $email)){
 
 						$message = "<p class='message_error'><strong>Ошибка!</strong> Вы ввели адрес электронной почты в неправильном формате </p>";
-						redirect_to($message, 'site/form_register.php');
+						redirect_to($message, 'site/profile/form_register.php');
 					}
 
 					$query_select_user = $mysqli->query("SELECT `id` FROM `users` WHERE `email` = '".$email."'");
@@ -78,25 +78,25 @@
 					if(!$query_select_user){
 
 						$message = "<p class='message_error'><strong>Ошибка!</strong> Ошибка в запросе к Базе Данных, при проверки существования пользователя с таким адресом электронной почты. </p><p>Описание ошибки: $mysqli->error <br /> Код ошибки: $mysqli->errno </p>";
-						redirect_to($message, 'site/form_register.php');
+						redirect_to($message, 'site/profile/form_register.php');
 					}
 
 					if($query_select_user->num_rows == 1){
 
 						$message =  "<p class='message_error'><strong>Ошибка!</strong> Пользователь с таким адресом электронной почты уже зарегистрирован</p>";
-						redirect_to($message, 'site/form_register.php');
+						redirect_to($message, 'site/profile/form_register.php');
 					}
 
 				}else{
 
 					$message = "<p class='message_error'><strong>Ошибка!</strong> Укажите адрес Вашей электронной почты</p>";
-					redirect_to($message, 'site/form_register.php');
+					redirect_to($message, 'site/profile/form_register.php');
 				}
 
 			}else{
 
 				$message = "<p class='message_error'><strong>Ошибка!</strong> Отсутствует поле для ввода адреса электронной почты</p>";
-				redirect_to($message, 'site/form_register.php');
+				redirect_to($message, 'site/profile/form_register.php');
 			}
 
 			//======= Обработка пароля ============
@@ -112,13 +112,13 @@
 				}else{
 
 					$message = "<p class='message_error'><strong>Ошибка!</strong> Укажите Ваш пароль</p>";
-					redirect_to($message, 'site/form_register.php');
+					redirect_to($message, 'site/profile/form_register.php');
 				}
 
 			}else{
 
 				$message = "<p class='message_error'><strong>Ошибка!</strong> Отсутствует поле для ввода пароля</p>";
-				redirect_to($message, 'site/form_register.php');
+				redirect_to($message, 'site/profile/form_register.php');
 			}
 
 			$result_query_insert = $mysqli->query("INSERT INTO `users` (first_name, last_name, email, password) VALUES ('".$first_name."', '".$last_name."', '".$email."', '".$password."') ");
@@ -126,12 +126,12 @@
 			if(!$result_query_insert){
 
 				$message = "<p class='message_error'><strong>Ошибка!</strong> При регистрации произошла ошибка. </p><p>Описание ошибки: $mysqli->error <br /> Код ошибки: $mysqli->errno </p>";
-				redirect_to($message, 'site/form_register.php');
+				redirect_to($message, 'site/profile/form_register.php');
 
 			}else{
 
 				$message = "<p class='success_message'>Регистрация прошла успешно! <br /> Теперь Вы можете авторизоваться используя Ваш адрес электронной почты ( Email ) и пароль </p>";
-				redirect_to($message, 'site/form_auth.php');
+				redirect_to($message, 'site/profile/form_auth.php');
 			}
 
 			$mysqli->close();
@@ -139,7 +139,7 @@
 		// }else{
 
 			// $message = "<p class='message_error'><strong>Ошибка!</strong> Отсутствует поле для ввода капчи </p>";
-			// redirect_to($message, 'site/form_register.php');
+			// redirect_to($message, 'site/profile/form_register.php');
 
 		// }
 

@@ -11,22 +11,24 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <!-- Просто стили -->
-    <link rel="stylesheet" type="text/css" href="css/style.css?v=1.0.0.4">
+    <link rel="stylesheet" type="text/css" href="/site/css/style.css?v=1.0.0.3">
+	<link rel="stylesheet" type="text/css" href="/site/css/main.css?v=1.0.0.0">
 
     <!-- Иконка вкладки -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" href="/site/img/myfavicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/site/img/myfavicon.ico" type="image/x-icon" />
 
     <!-- Head для form_auth -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/login.css?v=1.0.0.3">
+    <link rel="stylesheet" type="text/css" href="/site/css/login.css?v=1.0.0.3">
 
     <!-- Head для form_register -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/sign_up.css?v=1.0.0.3">
+    <link rel="stylesheet" type="text/css" href="/site/css/sign_up.css?v=1.0.0.3">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 
     <!-- Шрифт для имени -->
@@ -85,8 +87,8 @@
 
     <!-- Шапка -->
     <nav class="navbar navbar-dark" style="background-color:#212529">
-      <a class="navbar-brand" href="/">
-      <img src="img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      <a class="navbar-brand" href="/site/">
+      <img src="/site/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
       MasyaSmerd
       </a>
 
@@ -99,19 +101,38 @@
 				<!-- <div  id="link_register">
 					<a href="form_register.php">Регистрация</a>
 				</div> -->
-
-				<div class="float-right btn btn-outline-primary mt-1" id="link_auth">
-					<a href="form_auth.php">Войти</a>
-				</div>
+				<a role="button" class="float-right btn btn-outline-primary btn-log" href="/site/profile/form_auth.php" id="link_auth"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+</svg>
+				Войти</a>
+				<!-- <a href="/site/profile/form_auth.php">Войти</a> -->
 		<?php
 			}else{
 		?>
-				<div class="float-right btn btn-outline-primary mt-1" id="link_logout">
-					<a href="logout.php">Выход</a>
-				</div>
-
-				<div>
-					Привет <?php echo $_SESSION['first_name'].' '.$_SESSION['last_name']; ?>
+					<!-- Картинка-кнопка выхода с выпадающем меню -->
+					<div class="btn-group dropleft" id="avatar-btn" aria-haspopup="true">
+					<button type="button" class="btn-menu-lc " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<img src="/site/img/lc.png" width="50" height="30" class="d-inline-block align-top" alt="">
+					</button>
+					<div class="dropdown-menu links">
+						<div class="header-drop-menu">
+							<div class="head-avatar-img" id="avatar" width="50" height="30" style="background-color: transparent">
+								<img src="/site/img/lc.png" width="50" height="30" class="img-name" alt="">
+							</div>
+							<div class="head-block-name" id="block-name">
+								<div class="head-account-name" id="account-name" title="<?php echo $_SESSION['first_name'].' '.$_SESSION['last_name']; ?>">
+									<?php echo $_SESSION['first_name'].' '.$_SESSION['last_name']; ?>
+								</div>
+								<div class="head-manage-account" id="manage-account" title=""> <!-- Добавить в тайтл страницу личного кабинета через php-->
+									<a class="manage-account" href="/site/profile/personal_area/main.php" rel="nofollow" target="_blank" dir="auto">Личный кабинет</a> <!-- Добавить страницу личного кабинета -->
+								</div>
+							</div>
+						</div>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item outh" href="/site/profile/logout.php">Выход</a>
+					</div>
+					</div>
 				</div>
 		<?php
 			}
