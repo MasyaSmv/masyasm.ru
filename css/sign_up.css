@@ -11,6 +11,11 @@ html, body, input, textarea, select, button {
 a {
     color: #3391ff;
 }
+
+a.manage-account:hover {
+    color: rgb(51, 162, 255);
+    }
+
 table {
     border-color: #545b5e;
 }
@@ -81,12 +86,12 @@ abbr[title] {
     text-decoration-color: initial;
     border-bottom-color: initial;
 }
-a {
+a.log-in {
     color: rgb(51, 162, 255);
     text-decoration-color: initial;
     background-color: transparent;
 }
-a:hover {
+a.log-in:hover {
     color: rgb(255, 255, 255);
     text-decoration-color: initial;
     text-decoration: none;

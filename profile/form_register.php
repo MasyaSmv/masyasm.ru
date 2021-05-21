@@ -76,7 +76,7 @@
 			</div>
 
 			<!-- Кнопка входа для уже зарегистрированных -->
-			<div class="border-top card-body text-center" style="border-top-color: rgb(56, 61, 63) !important;;">Уже есть аккаунт? <a href="form_auth.php">Войти</a></div>
+			<div class="border-top card-body text-center" style="border-top-color: rgb(56, 61, 63) !important;;">Уже есть аккаунт? <a class="log-in" href="form_auth.php">Войти</a></div>
 		<?php
 			} else {
 		?>

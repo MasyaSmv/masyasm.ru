@@ -45,6 +45,29 @@ a:hover {
   background: none;
 }
 
+.btn-menu-lc-img {
+  border: none;
+  background: none;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+}
+
+.img-name-lc {
+  border: none;
+  background: none;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
 
 .dropdown-item.outh:hover {
   background-color: #6c757d99;

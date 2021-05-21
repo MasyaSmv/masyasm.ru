@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <!-- Просто стили -->
-    <link rel="stylesheet" type="text/css" href="/site/css/style.css?v=1.0.0.3">
-	<link rel="stylesheet" type="text/css" href="/site/css/main.css?v=1.0.0.0">
+    <link rel="stylesheet" type="text/css" href="/site/css/style.css?v=1.0.0.3"> <!-- header -->
+	<link rel="stylesheet" type="text/css" href="/site/css/main.css?v=1.0.0.1"> <!-- main -->
 
     <!-- Иконка вкладки -->
     <link rel="icon" href="/site/img/myfavicon.ico" type="image/x-icon" />
@@ -101,30 +101,31 @@
 				<!-- <div  id="link_register">
 					<a href="form_register.php">Регистрация</a>
 				</div> -->
-				<a role="button" class="float-right btn btn-outline-primary btn-log" href="/site/profile/form_auth.php" id="link_auth"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+				<a role="button" class="float-right btn btn-outline-primary btn-log log-in" href="/site/profile/form_auth.php" id="link_auth"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
   <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
   <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
 </svg>
 				Войти</a>
-				<!-- <a href="/site/profile/form_auth.php">Войти</a> -->
 		<?php
 			}else{
 		?>
 					<!-- Картинка-кнопка выхода с выпадающем меню -->
 					<div class="btn-group dropleft" id="avatar-btn" aria-haspopup="true">
 					<button type="button" class="btn-menu-lc " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<img src="/site/img/lc.png" width="50" height="30" class="d-inline-block align-top" alt="">
+						<div class="btn-menu-lc-img" >
+							<img src="/site/img/ava.jpg" width="32" height="32" class="d-inline-block align-top" alt=""> <!-- Реализовать загрузку картинки с сервера -->
+						</div>
 					</button>
 					<div class="dropdown-menu links">
 						<div class="header-drop-menu">
-							<div class="head-avatar-img" id="avatar" width="50" height="30" style="background-color: transparent">
-								<img src="/site/img/lc.png" width="50" height="30" class="img-name" alt="">
+							<div class="head-avatar-img" id="avatar" width="50" height="50" style="background-color: transparent">
+								<img src="/site/img/ava.jpg" width="50" height="50" class="img-name-lc" alt=""> <!-- Реализовать загрузку картинки с сервера -->
 							</div>
 							<div class="head-block-name" id="block-name">
-								<div class="head-account-name" id="account-name" title="<?php echo $_SESSION['first_name'].' '.$_SESSION['last_name']; ?>">
+								<div class="head-account-name" id="account-name">
 									<?php echo $_SESSION['first_name'].' '.$_SESSION['last_name']; ?>
 								</div>
-								<div class="head-manage-account" id="manage-account" title=""> <!-- Добавить в тайтл страницу личного кабинета через php-->
+								<div class="head-manage-account" id="manage-account">
 									<a class="manage-account" href="/site/profile/personal_area/main.php" rel="nofollow" target="_blank" dir="auto">Личный кабинет</a> <!-- Добавить страницу личного кабинета -->
 								</div>
 							</div>
