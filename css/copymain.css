@@ -3372,6 +3372,21 @@ html[dir="rtl"] .hhikbc
 	text-overflow: ellipsis;
 	word-break: break-word;
 }
+.x95qze
+{
+	align-self: center;
+	box-flex: 0;
+	color: #eeff41;
+	cursor: pointer;
+	display: inline-block;
+	flex-grow: 0;
+	flex-shrink: 0;
+	float: right;
+	font-weight: 500;
+	outline: none;
+	padding: 14px 24px;
+	text-transform: uppercase;
+}
 .KYZn9b
 {
 	background-color: #4285f4;
@@ -3868,7 +3883,6 @@ body:not(.uOat3d) .VZLjze:focus
 	padding: 0;
 	--webkit-box-align: center;
 	--webkit-box-pack: center;
-    color: white;
 }
 .YPzqGd
 {
@@ -3930,7 +3944,7 @@ body:not(.uOat3d) .VZLjze:focus
 }
 .z7VTQb .DPvwYc
 {
-	color: #ffffff;
+	color: #5f6368;
 	font-size: 24px;
 	font-weight: 400;
 	hyphens: auto;
@@ -6400,7 +6414,7 @@ body:not(.uOat3d) .VZLjze:focus
 }
 .xNklye
 {
-	padding-top: 10px;
+	padding-top: 5em;
 }
 body:not(.uOat3d) .xNklye:focus
 {
@@ -6477,7 +6491,7 @@ body:not(.uOat3d) .xNklye:focus
 }
 .x7WrMb
 {
-	color: #f5f5f5;
+	color: #202124;
 	font-family: 'Google Sans',Roboto,Arial,sans-serif;
 	font-size: 1.75rem;
 	font-weight: 400;
@@ -6810,7 +6824,7 @@ body:not(.uOat3d) .hrNQqb:focus
 }
 .EhlvJf.KKjvXb
 {
-	background: #212529;
+	background: #e8f0fe;
 }
 .iKN8Oe
 {
@@ -6832,7 +6846,7 @@ body:not(.uOat3d) .hrNQqb:focus
 .GiKO7c
 {
 	box-flex: 1;
-	color: #ffffff;
+	color: #3c4043;
 	flex-basis: 0;
 	flex-grow: 1;
 	flex-shrink: 1;
@@ -6847,7 +6861,7 @@ body:not(.uOat3d) .hrNQqb:focus
 }
 .EhlvJf.KKjvXb .iKN8Oe .DPvwYc,.EhlvJf.KKjvXb .GiKO7c
 {
-	color: #ffffff;
+	color: #1967d2;
 }
 .ipetfd
 {
@@ -7388,7 +7402,9 @@ body:not(.uOat3d) .hrNQqb:focus
 		display: block;
 	}
 }
-
+sentinel
+{
+}
 @font-face
 {
 	font-family: 'Roboto';
@@ -10291,7 +10307,9 @@ a.gb_4.gb_nd:active
 	flex: 0 0 auto;
 	--webkit-flex: 0 0 auto;
 }
-
+sentinel
+{
+}
 .EDId0c
 {
 	position: relative;
@@ -10484,12 +10502,16 @@ a.gb_4.gb_nd:active
 		stroke: #4285f4;
 	}
 }
-
+sentinel
+{
+}
 .fb0g6
 {
 	position: relative;
 }
-
+sentinel
+{
+}
 .fFW7wc-OEVmcd
 {
 	border: 0;
@@ -10537,7 +10559,9 @@ a.gb_4.gb_nd:active
 {
 	display: none;
 }
-
+sentinel
+{
+}
 .HJOYVi6
 {
 	height: 24px;
