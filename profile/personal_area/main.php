@@ -7,12 +7,11 @@ $("sr-only").click(function(){
     $("mySidenav").scrollLeft(60);
 });
 </script> -->
+<?php include ('../../header.php'); ?>
 	</head>
 
 	<body>
-		<?php
-			require_once("F:/xampp/htdocs/site/header.php");
-		?>
+
 
         <!-- МОбильное боковое меню -->
         <div class="T4LgNb">
@@ -23,7 +22,7 @@ $("sr-only").click(function(){
                             <nav class="pDZ8ze">
                                 <ul class="HgyDFf">
                                     <li class="HTqe8e KKjvXb">
-                                        <a href="./" class="VZLjze Wvetm">
+                                        <a href="/site/profile/personal_area/main.php" class="VZLjze Wvetm">
                                             <div class="GWwaOc">Главная</div>
                                             <div class="wVreme">
                                                 <div class="F8GKPc"></div>
@@ -31,7 +30,7 @@ $("sr-only").click(function(){
                                         </a>
                                     </li>
                                     <li class="HTqe8e">
-                                        <a href="personal-info" class="VZLjze Wvetm">
+                                        <a href="/site/profile/personal_area/myinfo.php" class="VZLjze Wvetm">
                                             <div class="GWwaOc">Личная информация</div>
                                             <div class="wVreme">
                                                 <div class="F8GKPc"></div>
@@ -39,7 +38,7 @@ $("sr-only").click(function(){
                                         </a>
                                     </li>
                                     <li class="HTqe8e">
-                                        <a href="data-and-personalization" class="VZLjze Wvetm">
+                                        <a href="/site/profile/personal_area/companyinfo.php" class="VZLjze Wvetm">
                                             <div class="GWwaOc">Информация о компании</div>
                                             <div class="wVreme">
                                                 <div class="F8GKPc"></div>
@@ -47,7 +46,7 @@ $("sr-only").click(function(){
                                         </a>
                                     </li>
                                     <li class="HTqe8e">
-                                        <a href="security" class="VZLjze Wvetm">
+                                        <a href="/site/profile/personal_area/security.php" class="VZLjze Wvetm">
                                             <div class="GWwaOc">Безопасность</div>
                                             <div class="wVreme">
                                                 <div class="F8GKPc"></div>
@@ -55,20 +54,14 @@ $("sr-only").click(function(){
                                         </a>
                                     </li>
                                     <li class="HTqe8e">
-                                        <a href="payments-and-subscriptions" class="VZLjze Wvetm">
-                                            <div class="GWwaOc">Платежи и подписки</div>
+                                        <a href="/site/profile/personal_area/subscriptions.php" class="VZLjze Wvetm">
+                                            <div class="GWwaOc">Оплата и подписки</div>
                                             <div class="wVreme">
                                                 <div class="F8GKPc"></div>
                                             </div>
                                         </a>
                                     </li>
                                 </ul>
-                                <div class="zKQAde ROscfb eLNT1d">
-                                    <span class="DPvwYc sm8sCf O7dWOc"></span>
-                                </div>
-                                <div class="zKQAde nejLf">
-                                    <span class="DPvwYc sm8sCf O7dWOc"></span>
-                                </div>
                             </nav>
                         </div>
 
@@ -77,7 +70,7 @@ $("sr-only").click(function(){
                             <nav class="tbyFuf">
                                 <ul class="b3qkse">
                                     <li class="BBRNg">
-                                        <a href="./" class="VZLjze Wvetm EhlvJf KKjvXb">
+                                        <a href="/site/profile/personal_area/main.php" class="VZLjze Wvetm EhlvJf KKjvXb">
                                             <div class="iKN8Oe">
                                                 <style nonce="">.HJOYVi6 {width: 24px; height: 24px;}</style>
                                                 <figure class="HJOYV HJOYVi6">
@@ -91,7 +84,7 @@ $("sr-only").click(function(){
                                         </a>
                                     </li>
                                     <li class="BBRNg">
-                                        <a href="personal-info" class="VZLjze Wvetm zCVEd EhlvJf">
+                                        <a href="/site/profile/personal_area/myinfo.php" class="VZLjze Wvetm zCVEd EhlvJf">
                                             <div class="iKN8Oe">
                                                 <style nonce="">.HJOYVi7 {width: 24px; height: 24px;}</style>
                                                 <figure class="HJOYV HJOYVi7">
@@ -105,7 +98,7 @@ $("sr-only").click(function(){
                                         </a>
                                     </li>
                                     <li class="BBRNg">
-                                        <a href="data-and-personalization" class="VZLjze Wvetm zCVEd EhlvJf">
+                                        <a href="/site/profile/personal_area/companyinfo.php" class="VZLjze Wvetm zCVEd EhlvJf">
                                             <div class="iKN8Oe">
                                                 <style nonce="">.HJOYVi8 {width: 24px; height: 24px;}</style>
                                                 <figure class="HJOYV HJOYVi8">
@@ -119,7 +112,7 @@ $("sr-only").click(function(){
                                         </a>
                                     </li>
                                     <li class="BBRNg">
-                                        <a href="security" class="VZLjze Wvetm zCVEd EhlvJf">
+                                        <a href="/site/profile/personal_area/security.php" class="VZLjze Wvetm zCVEd EhlvJf">
                                             <div class="iKN8Oe">
                                                 <figure class="z7VTQb" style="width: nullpx; height: nullpx;">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock DPvwYc" viewBox="0 0 16 16">
@@ -131,7 +124,7 @@ $("sr-only").click(function(){
                                         </a>
                                     </li>
                                     <li class="BBRNg">
-                                        <a href="payments-and-subscriptions" class="VZLjze Wvetm zCVEd EhlvJf">
+                                        <a href="/site/profile/personal_area/subscriptions.php" class="VZLjze Wvetm zCVEd EhlvJf">
                                             <div class="iKN8Oe">
                                                 <figure class="z7VTQb" style="width: nullpx; height: nullpx;">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card DPvwYc" viewBox="0 0 16 16">
@@ -140,7 +133,7 @@ $("sr-only").click(function(){
                                                     </svg>
                                                 </figure>
                                             </div>
-                                            <div class="GiKO7c">Платежи и подписки</div>
+                                            <div class="GiKO7c">Оплата и подписки</div>
                                         </a>
                                     </li>
                                     <li class="ipetfd"></li>
@@ -192,9 +185,13 @@ $("sr-only").click(function(){
                         </div>
                         <!-- Приветствие пользователя -->
                         <h1 class="x7WrMb">Добро пожаловать, <?php echo $_SESSION['first_name'].' '.$_SESSION['last_name']; ?>!</h1>
-                        <div class="cmSWBc">Слышь, епт. Заходи сюда чепушилка.
-                            <a href="#" class="VZLjze">Сюда ля…</a>
+
+                        <!-- Подпись под фотографией с ссылкой. Можно что-то придумать -->
+
+                        <div class="cmSWBc">Всю нужную информацию вы можете просмотреть
+                            <a href="#" class="VZLjze"> тут</a>
                         </div>
+
                     </header>
                     <!-- Секция с блоками переходов на другие проекты/сервисы -->
                     <section class="dQBdyc">
@@ -212,10 +209,10 @@ $("sr-only").click(function(){
                                                 <!-- Блок с текстами -->
                                                 <div class="jbRlDc">
                                                     <!-- Заголовок -->
-                                                    <h2 class="fnfC4c">ДА еп твою мать!</h2>
+                                                    <h2 class="fnfC4c">Первый заголовок!</h2>
                                                     <!-- Описание -->
                                                     <div class="ISnqu">
-                                                        <div>Кожанные мешки! Вы все будете порабащены</div>
+                                                        <div>Описание блока 1</div>
                                                     </div>
                                                 </div>
                                                 <!-- Контейнер с картинкой -->
@@ -242,7 +239,7 @@ $("sr-only").click(function(){
                                         <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                             <!-- Ссылка для перехода -->
                                             <a href="#" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd">
-                                                <div class="mtfBU">Быстро подохнуть здесь!</div>
+                                                <div class="mtfBU">Текст с ссылкой</div>
                                             </a>
                                         </div>
                                     </div>
@@ -264,10 +261,10 @@ $("sr-only").click(function(){
                                                 <!-- Блок с текстами -->
                                                 <div class="jbRlDc">
                                                     <!-- Заголовок -->
-                                                    <h2 class="fnfC4c">ДА еп твою мать!</h2>
+                                                    <h2 class="fnfC4c">Второй заголовок</h2>
                                                     <!-- Описание -->
                                                     <div class="ISnqu">
-                                                        <div>Кожанные мешки! Вы все будете порабащены</div>
+                                                        <div>Описание бло 2</div>
                                                     </div>
                                                 </div>
                                                 <!-- Контейнер с картинкой -->
@@ -293,7 +290,7 @@ $("sr-only").click(function(){
                                         <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                             <!-- Ссылка для перехода -->
                                             <a href="#" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd">
-                                                <div class="mtfBU">Быстро подохнуть здесь!</div>
+                                                <div class="mtfBU">Текст с кликабельной ссылкой</div>
                                             </a>
                                         </div>
                                     </div>
@@ -315,10 +312,10 @@ $("sr-only").click(function(){
                                                 <!-- Блок с текстами -->
                                                 <div class="jbRlDc">
                                                     <!-- Заголовок -->
-                                                    <h2 class="fnfC4c">ДА еп твою мать!</h2>
+                                                    <h2 class="fnfC4c">Заголовок блока 3</h2>
                                                     <!-- Описание -->
                                                     <div class="ISnqu">
-                                                        <div>Кожанные мешки! Вы все будете порабащены</div>
+                                                        <div>Описание блока 3</div>
                                                     </div>
                                                 </div>
                                                 <!-- Контейнер с картинкой -->
@@ -345,7 +342,7 @@ $("sr-only").click(function(){
                                         <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                             <!-- Ссылка для перехода -->
                                             <a href="#" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd">
-                                                <div class="mtfBU">Быстро подохнуть здесь!</div>
+                                                <div class="mtfBU">Текст с ссылочкой</div>
                                             </a>
                                         </div>
                                     </div>
@@ -367,10 +364,10 @@ $("sr-only").click(function(){
                                                 <!-- Блок с текстами -->
                                                 <div class="jbRlDc">
                                                     <!-- Заголовок -->
-                                                    <h2 class="fnfC4c">ДА еп твою мать!</h2>
+                                                    <h2 class="fnfC4c">Заголовок блока 4</h2>
                                                     <!-- Описание -->
                                                     <div class="ISnqu">
-                                                        <div>Кожанные мешки! Вы все будете порабащены</div>
+                                                        <div>Описание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блока</div>
                                                     </div>
                                                 </div>
                                                 <!-- Контейнер с картинкой -->
@@ -397,7 +394,7 @@ $("sr-only").click(function(){
                                         <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                             <!-- Ссылка для перехода -->
                                             <a href="#" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd">
-                                                <div class="mtfBU">Быстро подохнуть здесь!</div>
+                                                <div class="mtfBU">и тут ссылочка с текстом</div>
                                             </a>
                                         </div>
                                     </div>
@@ -597,7 +594,7 @@ $("sr-only").click(function(){
                 </button>
             </div>
             <div class="modal-body">
-                <iframe src="/site/profile/personal_area/profile_photo.php" width="765px" height="400px">
+                <iframe src="/profile/personal_area/profile_photo.php" width="765px" height="400px">
 
                 </iframe>
             <div class="modal-footer">

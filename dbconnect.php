@@ -3,9 +3,9 @@
 header('Content-Type: text/html; charset=utf-8');
 
 $server = "localhost";
-$username = "root";
-$password = "7895123";
-$database = "testsite";
+$username = "iskra134_admin";
+$password = "78951230Zz";
+$database = "iskra134_masyasm";
 
 $mysqli = new mysqli($server, $username, $password, $database);
 

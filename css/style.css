@@ -5,16 +5,28 @@
     font-size: 3.5rem;
   }
 }
+.iframegura {
+  width: 560px;
+  height: 315px;
+}
+
+@media screen and (max-width:600px) {
+  .iframegura {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+  }
+}
+
+
 
 #header {
   position: fixed;
   width: 100%;
-  z-index: 2;
+  z-index: 999;
 }
 
 a {
   text-decoration: none;
-  vertical-align: middle;
 }
 
 a:hover {

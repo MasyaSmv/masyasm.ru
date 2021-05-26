@@ -29,7 +29,7 @@
 			<div class="row justify-content-center">
 
 			<!-- Контейнер блока формы регистрации -->
-			<div class="col-md-6" style="padding-top:3%;">
+			<div class="col-md-6" style="padding-top: 8em;">
 
 			<!-- Форма регистрации -->
 			<div class="card" style="background-color: rgb(24, 26, 27); border-color: rgba(140, 130, 115, 0.13);">

@@ -8,4 +8,5 @@
 	header("HTTP/1.1 301 Moved Permanently");
 	header("Location: ".$_SERVER["HTTP_REFERER"]);
 
+	redirect_to($message, '/site/profile/form_auth.php');
 ?>

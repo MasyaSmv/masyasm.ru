@@ -2,7 +2,7 @@
 <html lang="ru">
     <head>
         <title>Личный кабинет</title>
-        <link rel="stylesheet" type="text/css" href="/site/css/profile_photo.css?v=1.0.0.0">
+        <link rel="stylesheet" type="text/css" href="/css/profile_photo.css?v=1.0.0.0">
     </head>
     <body>
         <div class="ee-Ji-eb ee-Df-eb">

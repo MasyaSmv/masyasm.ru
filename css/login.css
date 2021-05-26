@@ -17,6 +17,7 @@ a:hover {
 .kpx_login .kpx_authTitle {
     text-align: center;
     line-height: 300%;
+    padding-top: 3em;
 }
 
 .kpx_login .kpx_socialButtons a {

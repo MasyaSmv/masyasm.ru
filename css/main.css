@@ -3895,11 +3895,11 @@ body:not(.uOat3d) .VZLjze:focus
 		height: auto;
 		width: auto;
 	}
-	.gMPiLc.Kdcijb:not(.POdh1) .HJOYV.P0ukfb .YPzqGd
+	/* .gMPiLc.Kdcijb:not(.POdh1) .HJOYV.P0ukfb .YPzqGd
 	{
 		height: auto;
 		width: 100%;
-	}
+	} */
 }
 @media (min-width:600px) and (max-width:719px),(min-width:1348px) and (max-width:1467px)
 {
@@ -4030,7 +4030,7 @@ body:not(.uOat3d) .VZLjze:focus
 }
 .mtfBU
 {
-	color: #1a73e8;
+	color: #007bff;
 	font-family: 'Google Sans',Roboto,Arial,sans-serif;
 	font-size: .875rem;
 	font-weight: 500;
@@ -4076,7 +4076,7 @@ body:not(.uOat3d) .VZLjze:focus
 }
 .bJCr1d
 {
-	color: #202124;
+	color: #f8f9fa;
 	font-family: Roboto,Arial,sans-serif;
 	font-size: 1rem;
 	font-weight: 400;
@@ -4239,7 +4239,7 @@ body:not(.uOat3d) .VZLjze:focus
 {
 	.gMPiLc.Kdcijb:not(.POdh1) .fnfC4c
 	{
-		color: #202124;
+		color: #f8f9fa;
 		font-family: 'Google Sans',Roboto,Arial,sans-serif;
 		font-size: 1.375rem;
 		font-weight: 400;
@@ -4295,8 +4295,8 @@ body:not(.uOat3d) .VZLjze:focus
 }
 .XLK0Od
 {
-	background-color: #fff;
-	border: 1px solid #dadce0;
+	background-color: #212529;
+	border: 1px solid #343a40;
 	border-radius: 8px;
 	box-flex: 1;
 	box-sizing: border-box;
@@ -4439,7 +4439,7 @@ body:not(.uOat3d) .VZLjze:focus
 }
 .Q5jTGb
 {
-	border-top: 1px solid #dadce0;
+	border-top: 1px solid #495057;
 }
 @media (min-width:720px)
 {
@@ -4513,6 +4513,7 @@ body:not(.uOat3d) .VZLjze:focus
 	{
 		padding-bottom: 18px;
 		padding-top: 17px;
+		background-color: #343a40
 	}
 	.gMPiLc.Kdcijb:not(.POdh1) .cv2gi
 	{
@@ -6606,7 +6607,7 @@ body:not(.uOat3d) .hrNQqb:focus
 }
 .IQgWAe
 {
-	color: #202124;
+	color: #e7e7e7;
 	font-family: 'Google Sans',Roboto,Arial,sans-serif;
 	font-size: 1.75rem;
 	font-weight: 400;
@@ -6698,6 +6699,7 @@ body:not(.uOat3d) .hrNQqb:focus
 	{
 		padding-left: 24px;
 		padding-right: 24px;
+		padding-top: 3em;
 	}
 	.yBbiQe
 	{
@@ -6755,6 +6757,7 @@ body:not(.uOat3d) .hrNQqb:focus
 	{
 		padding-left: 48px;
 		padding-right: 48px;
+		padding-top: 0;
 	}
 	.s7iwrf.Kdcijb .ETkYLd
 	{
@@ -6931,8 +6934,8 @@ body:not(.uOat3d) .hrNQqb:focus
 }
 .pDZ8ze
 {
-	background-color: rgba(255,255,255,0.961);
-	border-bottom: 1px solid #dadce0;
+	background-color: #212529;
+	border-bottom: 1px solid #343a40;
 	transition: border .25s;
 	width: 100%;
 }
@@ -6953,14 +6956,14 @@ body:not(.uOat3d) .hrNQqb:focus
 {
 	display: none;
 }
-.zKQAde
+/* .zKQAde
 {
 	height: 48px;
 	pointer-events: none;
 	position: absolute;
 	top: 0;
 	width: 24px;
-}
+} */
 .zKQAde.ROscfb
 {
 	background-color: rgba(255,255,255,0);
@@ -6968,18 +6971,18 @@ body:not(.uOat3d) .hrNQqb:focus
 	background-image: -webkit-linear-gradient(-180deg,rgba(255,255,255,0) 0%, rgba(255,255,255,0.902) 70%);
 	left: 0;
 }
-.zKQAde.nejLf
+/* .zKQAde.nejLf
 {
 	background-color: rgba(255,255,255,0);
 	background-image: linear-gradient(90deg,rgba(255,255,255,0) 0%, rgba(255,255,255,0.902) 70%);
 	background-image: -webkit-linear-gradient(0deg,rgba(255,255,255,0) 0%, rgba(255,255,255,0.902) 70%);
 	right: 0;
-}
+} */
 .zKQAde.eLNT1d
 {
 	display: none;
 }
-.O7dWOc
+/* .O7dWOc
 {
 	bottom: -2px;
 	color: #80868b;
@@ -6988,21 +6991,21 @@ body:not(.uOat3d) .hrNQqb:focus
 	padding: 12px;
 	pointer-events: auto;
 	position: absolute;
-}
+} */
 .zKQAde.ROscfb .O7dWOc
 {
 	left: 0;
 }
-.zKQAde.nejLf .O7dWOc
+/* .zKQAde.nejLf .O7dWOc
 {
 	right: 0;
-}
+} */
 @media (min-width:520px)
 {
-	.zKQAde
+	/* .zKQAde
 	{
 		width: 60px;
-	}
+	} */
 	.pDZ8ze:hover .O7dWOc
 	{
 		display: block;
@@ -7013,12 +7016,12 @@ body:not(.uOat3d) .hrNQqb:focus
 		background-image: linear-gradient(270deg,rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%);
 		background-image: -webkit-linear-gradient(-180deg,rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%);
 	}
-	.zKQAde.nejLf
+	/* .zKQAde.nejLf
 	{
 		background-color: rgba(255,255,255,0);
 		background-image: linear-gradient(90deg,rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%);
 		background-image: -webkit-linear-gradient(0deg,rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%);
-	}
+	} */
 }
 .HTqe8e
 {
@@ -7065,7 +7068,7 @@ body:not(.uOat3d) .hrNQqb:focus
 }
 .GWwaOc
 {
-	color: #5f6368;
+	color: #f8f9fa;
 	font-family: 'Google Sans',Roboto,Arial,sans-serif;
 	font-size: .875rem;
 	font-weight: 500;

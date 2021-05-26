@@ -93,7 +93,7 @@
 			<!-- Контейнер вводы почты и пароля -->
 			<div class="row kpx_row-sm-offset-3">
 				<!-- Блок ввода почты и пароля -->
-				<div class="col-xs-12 col-sm-6">
+				<div class="col-xs-12 col-sm-6" style="padding-bottom: 4em">
 					<form class="kpx_loginForm" action="auth.php" autocomplete="off" method="POST" name="form_auth">
 					<div class="input-group">
 						<span class="input-group-addon"><span class="fa fa-user" style="padding-top: 10px;"></span></span>
