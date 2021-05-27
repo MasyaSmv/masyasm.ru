@@ -155,7 +155,7 @@
     <div class="D8JwHb">
       <header class="hrNQqb" tabindex="-1">
         <h1 class="IQgWAe aa79bb">Личная информация</h1>
-        <div class="mPKYhd">Основная информация (например, имя и фото), которую вы используете в сервисах Google.</div>
+        <div class="mPKYhd">Основная информация (например, имя и фото)</div>
       </header>
       <c-wiz jsrenderer="btVe4" jsshadow="" jsdata="deferred-c185" data-p="%.@.[null,null,&quot;https://myaccount.google.com/personal-info&quot;],0]" jscontroller="" data-node-index="1;0" autoupdate="" jsmodel="hc6Ubd">
         <section class="dQBdyc">
@@ -253,7 +253,7 @@
                             </div>
                             <div class="zTjtYe" style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
                               <div class="xoXYwe">
-                                <div class="bJCr1d">Maxim Smerdov</div>
+                                <div class="bJCr1d"><?php echo $_SESSION['first_name'].' '.$_SESSION['last_name']; ?></div>
                               </div>
                             </div>
                           </div>
@@ -280,7 +280,7 @@
                             </div>
                             <div class="zTjtYe" style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
                               <div class="xoXYwe">
-                                <div class="bJCr1d">11 марта 1998 г.</div>
+                                <div class="bJCr1d">...</div>
                               </div>
                             </div>
                           </div>
@@ -307,7 +307,7 @@
                             </div>
                             <div class="zTjtYe" style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
                               <div class="xoXYwe">
-                                <div class="bJCr1d">Мужской</div>
+                                <div class="bJCr1d">...</div>
                               </div>
                             </div>
                           </div>
@@ -337,7 +337,7 @@
                                 <div class="bJCr1d">••••••••</div>
                               </div>
                               <div class="xoXYwe">
-                                <div class="Dn5CSc">Последнее изменение: 22 янв. 2019 г.</div>
+                                <div class="Dn5CSc">Последнее изменение: ....</div>
                               </div>
                             </div>
                           </div>
@@ -379,10 +379,10 @@
                             </div>
                             <div class="zTjtYe" style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
                               <div class="xoXYwe">
-                                <div class="bJCr1d">kuvaldamax@gmail.com</div>
+                                <div class="bJCr1d"><?php echo $_SESSION['email']; ?></div>
                               </div>
                               <div class="xoXYwe">
-                                <div class="bJCr1d">kuvalda-max@mail.ru</div>
+                                <div class="bJCr1d">...</div>
                               </div>
                             </div>
                           </div>
@@ -409,7 +409,7 @@
                             </div>
                             <div class="zTjtYe" style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
                               <div class="xoXYwe">
-                                <div class="bJCr1d">8 (999) 755-36-21</div>
+                                <div class="bJCr1d">....</div>
                               </div>
                             </div>
                           </div>
@@ -424,7 +424,7 @@
               </div>
             </div>
           </div>
-          <div class="wJpH8c">
+          <!-- <div class="wJpH8c">
             <div class="  XLK0Od">
               <div class="ahh38c">
                 <div class="ugt2L aK2X8b iDdZmf">
@@ -471,7 +471,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
                                       <!-- Контейнер с возможными вопросами -->
                                       <div class="wJpH8c">
                                 <div class="  XLK0Od">
