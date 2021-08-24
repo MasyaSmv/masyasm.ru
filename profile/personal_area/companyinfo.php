@@ -1006,13 +1006,15 @@
                                                                 компании</label>
                                                         </div>
                                                         <div class="Mk9Ug">
-                                                            <textarea class="form-control" style="resize: none;"
-                                                                id="exampleFormControlTextarea1" name="compText" placeholder="Введите текст" rows="3"><?php echo $company_arr['description']; ?></textarea>
-                                                            </div>
-                                                                <div class="form-group KKl9Ut">
-										<input class="btn btn-outline-primary" type="submit" name="btn_comp_text"
-											value="Отправить">
-									</div>
+                                                            <textarea class="form-control Hh7TtM"
+                                                                id="exampleFormControlTextarea1" name="compText"
+                                                                placeholder="Введите текст"
+                                                                rows="3"><?php echo $company_arr['description']; ?></textarea>
+                                                        </div>
+                                                        <div class="form-group KKl9Ut">
+                                                            <input class="btn btn-outline-primary" type="submit"
+                                                                name="btn_comp_text" value="Отправить">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </form>
