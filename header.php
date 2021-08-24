@@ -17,6 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="/css/up_file.css?v=1.0.0.2"> <!-- up_file -->
 	<link rel="stylesheet" type="text/css" href="/css/contact_company.css?v=1.0.0.1"> <!-- contact_company -->
 	<link rel="stylesheet" type="text/css" href="/css/main_info.css?v=1.0.0.1"> <!-- main_info -->
+	<link rel="stylesheet" type="text/css" href="/css/companyinfo.css?v=1.0.0.1"> <!-- companyinfo -->
 
     <!-- Иконка вкладки -->
     <link rel="icon" href="/img/myfavicon.ico" type="image/x-icon" />

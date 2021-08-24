@@ -22,6 +22,7 @@ if (isset($_SESSION['id'])) {
         $company_arr['inn'] = $row['inn'];
         $company_arr['compMail'] = $row['email'];
         $company_arr['logo'] = $row['logo'];
+        $company_arr['description'] = $row['description'];
     }
 }
 // Массив данных данных из таблицы юзеров

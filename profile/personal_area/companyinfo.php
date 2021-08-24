@@ -272,8 +272,7 @@
                                             <div class="Q5jTGb"></div>
                                         </div>
                                         <button type="button" class="hryX1e VfPpkd-ksKsZd-XxIAqe CmhoVd"
-                                        data-toggle="modal"
-                                    data-target="#exampleModal">
+                                            data-toggle="modal" data-target="#exampleModal">
                                             <div class="N5YmOc kJXJmd">
                                                 <div class="VJbqBb" role="text">
                                                     <div class="R1PxN">
@@ -299,9 +298,9 @@
                                                                         </figure>
                                                                     </div>
                                                                     <div class="kFNik"
-                                                                        style="color: rgba(94,98,103,1);">Фото
-                                                                        профиля позволяет подчеркнуть
-                                                                        индивидуальность аккаунта.</div>
+                                                                        style="color: rgba(94,98,103,1);">Логотип
+                                                                        компании показывает ее значимость и
+                                                                        профессионализм.</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -344,13 +343,13 @@
                                                         <div class="BQtBnc">
                                                             <div class="cdy4hc">
                                                                 <div class="xoXYwe">
-                                                                    <h3 class="WzaSad">Пол</h3>
+                                                                    <h3 class="WzaSad">Город</h3>
                                                                 </div>
                                                             </div>
                                                             <div class="zTjtYe"
                                                                 style="-webkit-flex-basis:292px; -ms-flex-preferred-size:292px; flex-basis:292px;">
                                                                 <div class="xoXYwe">
-                                                                    <div class="bJCr1d">Мужской</div>
+                                                                    <div class="bJCr1d">...</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -391,13 +390,14 @@
                                                         <div class="BQtBnc">
                                                             <div class="cdy4hc">
                                                                 <div class="xoXYwe">
-                                                                    <h3 class="WzaSad">Дата рождения</h3>
+                                                                    <h3 class="WzaSad">ИНН</h3>
                                                                 </div>
                                                             </div>
                                                             <div class="zTjtYe"
                                                                 style="-webkit-flex-basis:292px; -ms-flex-preferred-size:292px; flex-basis:292px;">
                                                                 <div class="xoXYwe">
-                                                                    <div class="bJCr1d">11 марта 1998 г.</div>
+                                                                    <div class="bJCr1d">
+                                                                        <?php echo $company_arr['inn']; ?></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -459,7 +459,8 @@
                                                             <div class="zTjtYe"
                                                                 style="-webkit-flex-basis:292px; -ms-flex-preferred-size:292px; flex-basis:292px;">
                                                                 <div class="xoXYwe">
-                                                                    <div class="bJCr1d">kuvaldamax@gmail.com</div>
+                                                                    <div class="bJCr1d">
+                                                                        <?php echo $company_arr['compMail']; ?></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -494,72 +495,241 @@
                                         <div class="cv2gi" role="presentation">
                                             <div class="Q5jTGb"></div>
                                         </div>
+                                        <div class="ugt2L aK2X8b iDdZmf">
+                                            <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
+                                                <a href="#" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="507"
+                                                    data-nav-type="5">
+                                                    <div class="VJbqBb" role="text">
+                                                        <div class="R1PxN">
+                                                            <div class="BQtBnc">
+                                                                <div class="cdy4hc">
+                                                                    <div class="xoXYwe">
+                                                                        <h3 class="WzaSad">Адрес компании</h3>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="zTjtYe"
+                                                                    style="-webkit-flex-basis:292px; -ms-flex-preferred-size:292px; flex-basis:292px;">
+                                                                    <div class="xoXYwe">
+                                                                        <div class="bJCr1d">...</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tBSpp">
+                                                            <style nonce="ROpunfH+DctR8a3VT8fgCQ">
+                                                                .HJOYVi13 {
+                                                                    width: 20px;
+                                                                    height: 20px;
+                                                                }
+                                                            </style>
+                                                            <figure class="HJOYV HJOYVi13"
+                                                                title="Эти данные видны всем в Интернете"><img
+                                                                    class="YPzqGd"
+                                                                    src="https://www.gstatic.com/identity/boq/accountsettingsmobile/profile_public_acl_20x20_f410638f6c5dcfe0dc116b074c332f54.png"
+                                                                    alt="Эти данные видны всем в Интернете"
+                                                                    aria-hidden="true"
+                                                                    srcset="https://www.gstatic.com/identity/boq/accountsettingsmobile/profile_public_acl_40x40_06c4ea1fc553f831448b079e2ebec633.png 2x, https://www.gstatic.com/identity/boq/accountsettingsmobile/profile_public_acl_60x60_e779c7b0aad41af87a81ea337dcfa172.png 3x, https://www.gstatic.com/identity/boq/accountsettingsmobile/profile_public_acl_80x80_1caffe16cffa07d0542f934b5ee6b3bc.png 4x">
+                                                            </figure>
+                                                        </div>
+                                                        <div class="NUNLMb">
+                                                            <figure class="z7VTQb"
+                                                                style="width: nullpx; height: nullpx;"
+                                                                aria-hidden="true"><span class="DPvwYc sm8sCf"
+                                                                    aria-hidden="true">&#xE5CC;</span></figure>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
 
-                                        <div>
-                                            <div class="N5YmOc">
-                                                <div class="CCN0Qd" jscontroller="wq3ehe"
-                                                    jsaction="rcuQ6b:VEbqJe; GvneHb:VEbqJe">
-                                                    <div class="DlrK9" jsname="XuHpsb">
-                                                        <div class="jwr3wd">
-                                                            <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd V7Ncoe"
-                                                                title="Добавьте контактные данные">
-                                                                <a href="company_file/contact_company.php"
-                                                                    class="VZLjze Wvetm I6g62c PdlOpb XLMwWc oGaYYd"
-                                                                    data-rid="10082" data-nav-type="5">
-                                                                    <div class="CSgpLb">
-                                                                        <style nonce="ROpunfH+DctR8a3VT8fgCQ">
-                                                                            .HJOYVi14 {
-                                                                                width: 18px;
-                                                                                height: 18px;
-                                                                            }
-                                                                        </style>
-                                                                        <figure class="HJOYV HJOYVi14"
-                                                                            aria-hidden="true"><img class="YPzqGd"
-                                                                                src="https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_20x20_2f7d83d7b9d939c28af464b2ea390165.png"
-                                                                                alt="" aria-hidden="true"
-                                                                                srcset="https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_40x40_3db0bf242f023947dedac89c34e22cf4.png 2x, https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_60x60_34da8df8df0647ce80c63633dc48defc.png 3x, https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_80x80_1c65cb29b2f86dc5f9c9c8ee79b264a1.png 4x">
-                                                                        </figure>
+                                        <div class="ugt2L t97Ap">
+                                            <div class="cv2gi" role="presentation">
+                                                <div class="Q5jTGb"></div>
+                                            </div>
+                                            <div class="ugt2L aK2X8b iDdZmf">
+                                                <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
+                                                    <a href="#" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="507"
+                                                        data-nav-type="5">
+                                                        <div class="VJbqBb" role="text">
+                                                            <div class="R1PxN">
+                                                                <div class="BQtBnc">
+                                                                    <div class="cdy4hc">
+                                                                        <div class="xoXYwe">
+                                                                            <h3 class="WzaSad">Номер телефона
+                                                                                компании</h3>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="nF0lvf">Добавьте контактные данные
+                                                                    <div class="zTjtYe"
+                                                                        style="-webkit-flex-basis:292px; -ms-flex-preferred-size:292px; flex-basis:292px;">
+                                                                        <div class="xoXYwe">
+                                                                            <div class="bJCr1d">
+                                                                                <?php echo $company_arr['compPhone']; ?>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tBSpp">
+                                                                <style nonce="ROpunfH+DctR8a3VT8fgCQ">
+                                                                    .HJOYVi13 {
+                                                                        width: 20px;
+                                                                        height: 20px;
+                                                                    }
+                                                                </style>
+                                                                <figure class="HJOYV HJOYVi13"
+                                                                    title="Эти данные видны всем в Интернете"><img
+                                                                        class="YPzqGd"
+                                                                        src="https://www.gstatic.com/identity/boq/accountsettingsmobile/profile_public_acl_20x20_f410638f6c5dcfe0dc116b074c332f54.png"
+                                                                        alt="Эти данные видны всем в Интернете"
+                                                                        aria-hidden="true"
+                                                                        srcset="https://www.gstatic.com/identity/boq/accountsettingsmobile/profile_public_acl_40x40_06c4ea1fc553f831448b079e2ebec633.png 2x, https://www.gstatic.com/identity/boq/accountsettingsmobile/profile_public_acl_60x60_e779c7b0aad41af87a81ea337dcfa172.png 3x, https://www.gstatic.com/identity/boq/accountsettingsmobile/profile_public_acl_80x80_1caffe16cffa07d0542f934b5ee6b3bc.png 4x">
+                                                                </figure>
+                                                            </div>
+                                                            <div class="NUNLMb">
+                                                                <figure class="z7VTQb"
+                                                                    style="width: nullpx; height: nullpx;"
+                                                                    aria-hidden="true"><span class="DPvwYc sm8sCf"
+                                                                        aria-hidden="true">&#xE5CC;</span></figure>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <div class="ugt2L t97Ap">
+                                                <div class="cv2gi" role="presentation">
+                                                    <div class="Q5jTGb"></div>
+                                                </div>
+                                                <div class="ugt2L aK2X8b iDdZmf">
+                                                    <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
+                                                        <a href="#" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd"
+                                                            data-rid="507" data-nav-type="5">
+                                                            <div class="VJbqBb" role="text">
+                                                                <div class="R1PxN">
+                                                                    <div class="BQtBnc">
+                                                                        <div class="cdy4hc">
+                                                                            <div class="xoXYwe">
+                                                                                <h3 class="WzaSad">Сайт компании</h3>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="zTjtYe"
+                                                                            style="-webkit-flex-basis:292px; -ms-flex-preferred-size:292px; flex-basis:292px;">
+                                                                            <div class="xoXYwe">
+                                                                                <div class="bJCr1d">
+                                                                                    <?php echo $company_arr['site']; ?>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="tBSpp">
+                                                                    <style nonce="ROpunfH+DctR8a3VT8fgCQ">
+                                                                        .HJOYVi13 {
+                                                                            width: 20px;
+                                                                            height: 20px;
+                                                                        }
+                                                                    </style>
+                                                                    <figure class="HJOYV HJOYVi13"
+                                                                        title="Эти данные видны всем в Интернете"><img
+                                                                            class="YPzqGd"
+                                                                            src="https://www.gstatic.com/identity/boq/accountsettingsmobile/profile_public_acl_20x20_f410638f6c5dcfe0dc116b074c332f54.png"
+                                                                            alt="Эти данные видны всем в Интернете"
+                                                                            aria-hidden="true"
+                                                                            srcset="https://www.gstatic.com/identity/boq/accountsettingsmobile/profile_public_acl_40x40_06c4ea1fc553f831448b079e2ebec633.png 2x, https://www.gstatic.com/identity/boq/accountsettingsmobile/profile_public_acl_60x60_e779c7b0aad41af87a81ea337dcfa172.png 3x, https://www.gstatic.com/identity/boq/accountsettingsmobile/profile_public_acl_80x80_1caffe16cffa07d0542f934b5ee6b3bc.png 4x">
+                                                                    </figure>
+                                                                </div>
+                                                                <div class="NUNLMb">
+                                                                    <figure class="z7VTQb"
+                                                                        style="width: nullpx; height: nullpx;"
+                                                                        aria-hidden="true"><span class="DPvwYc sm8sCf"
+                                                                            aria-hidden="true">&#xE5CC;</span></figure>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="ugt2L t97Ap">
+                                                    <div class="cv2gi" role="presentation">
+                                                        <div class="Q5jTGb"></div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="N5YmOc">
+                                                            <div class="CCN0Qd" jscontroller="wq3ehe"
+                                                                jsaction="rcuQ6b:VEbqJe; GvneHb:VEbqJe">
+                                                                <div class="DlrK9" jsname="XuHpsb">
+                                                                    <div class="jwr3wd">
+                                                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd V7Ncoe"
+                                                                            title="Добавьте контактные данные">
+                                                                            <a href="company_file/contact_company.php"
+                                                                                class="VZLjze Wvetm I6g62c PdlOpb XLMwWc oGaYYd"
+                                                                                data-rid="10082" data-nav-type="5">
+                                                                                <div class="CSgpLb">
+                                                                                    <style
+                                                                                        nonce="ROpunfH+DctR8a3VT8fgCQ">
+                                                                                        .HJOYVi14 {
+                                                                                            width: 18px;
+                                                                                            height: 18px;
+                                                                                        }
+                                                                                    </style>
+                                                                                    <figure class="HJOYV HJOYVi14"
+                                                                                        aria-hidden="true"><img
+                                                                                            class="YPzqGd"
+                                                                                            src="https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_20x20_2f7d83d7b9d939c28af464b2ea390165.png"
+                                                                                            alt="" aria-hidden="true"
+                                                                                            srcset="https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_40x40_3db0bf242f023947dedac89c34e22cf4.png 2x, https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_60x60_34da8df8df0647ce80c63633dc48defc.png 3x, https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_80x80_1c65cb29b2f86dc5f9c9c8ee79b264a1.png 4x">
+                                                                                    </figure>
+                                                                                </div>
+                                                                                <div class="nF0lvf">Добавьте
+                                                                                    контактные данные
+                                                                                </div>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ofBt5e eLNT1d" jsname="HG5jfd"
+                                                                    aria-hidden="true">
+                                                                    <span class="DPvwYc sm8sCf DqeGTe"
+                                                                        aria-hidden="true"
+                                                                        jsaction="click: XYMtZ">&#xE5CB;</span>
+                                                                </div>
+                                                                <div class="AlVhAf eLNT1d" jsname="ZidPZ"
+                                                                    aria-hidden="true">
+                                                                    <span class="DPvwYc sm8sCf Rbf3t" aria-hidden="true"
+                                                                        jsaction="click: zh6UJd">&#xE5CC;</span>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="ofBt5e eLNT1d" jsname="HG5jfd" aria-hidden="true">
-                                                        <span class="DPvwYc sm8sCf DqeGTe" aria-hidden="true"
-                                                            jsaction="click: XYMtZ">&#xE5CB;</span></div>
-                                                    <div class="AlVhAf eLNT1d" jsname="ZidPZ" aria-hidden="true">
-                                                        <span class="DPvwYc sm8sCf Rbf3t" aria-hidden="true"
-                                                            jsaction="click: zh6UJd">&#xE5CC;</span></div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ugt2L">
-                                        <div>
-                                            <div class="N5YmOc kJXJmd">
-                                                <header class="mSUZQd">
-                                                    <div class="jbRlDc">
-                                                        <h2 class="ISnqu">
-                                                            <div>Для связи с вами мы можем использовать
-                                                                контактную информацию, которая указана здесь. <a
-                                                                    href="personal-info" class="VZLjze" data-rid="10003"
-                                                                    data-nav-type="5"
-                                                                    aria-label="Посмотреть другие контактные данные">Чтобы
-                                                                    посмотреть другую контактную информацию,
-                                                                    откройте раздел &quot;Личные данные&quot;.</a>
-                                                            </div>
-                                                        </h2>
+                                                <div class="ugt2L">
+                                                    <div>
+                                                        <div class="N5YmOc kJXJmd">
+                                                            <header class="mSUZQd">
+                                                                <div class="jbRlDc">
+                                                                    <h2 class="ISnqu">
+                                                                        <div>Для связи с вами мы можем использовать
+                                                                            контактную информацию, которая указана
+                                                                            здесь. <a href="personal-info"
+                                                                                class="VZLjze" data-rid="10003"
+                                                                                data-nav-type="5"
+                                                                                aria-label="Посмотреть другие контактные данные">Чтобы
+                                                                                посмотреть другую контактную
+                                                                                информацию,
+                                                                                откройте раздел &quot;Личные
+                                                                                данные&quot;.</a>
+                                                                        </div>
+                                                                    </h2>
+                                                                </div>
+                                                            </header>
+                                                        </div>
                                                     </div>
-                                                </header>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                         <div class="wJpH8c">
                             <div class="  XLK0Od">
                                 <div class="ahh38c">
@@ -660,7 +830,7 @@
                                                                     style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
                                                                     <div class="xoXYwe">
                                                                         <div class="bJCr1d">
-                                                                        <?php echo $company_arr['inn']; ?>
+                                                                            <?php echo $company_arr['inn']; ?>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -820,20 +990,46 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wJpH8c">
+                                <div class="  XLK0Od">
+                                    <div class="ahh38c">
+                                        <div class="nn5GU">
+                                            <form method="POST" action="actComp.php" name="compText">
+                                                <div class="form-group">
+                                                    <div class="Vv7Th">
+                                                        <div class="Vo9Rt">
+                                                            <label for="exampleFormControlTextarea1">Описание
+                                                                компании</label>
+                                                        </div>
+                                                        <div class="Mk9Ug">
+                                                            <textarea class="form-control" style="resize: none;"
+                                                                id="exampleFormControlTextarea1" name="compText" placeholder="Введите текст" rows="3"><?php echo $company_arr['description']; ?></textarea>
+                                                            </div>
+                                                                <div class="form-group KKl9Ut">
+										<input class="btn btn-outline-primary" type="submit" name="btn_comp_text"
+											value="Отправить">
+									</div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                     </section>
                 </div>
             </div>
         </div>
     </div>
     </div>
-    </section>
+    <div class="vbHcXc gJItKf gHBEZd">
     </div>
-    </div>
-    </div>
-    </div>
-    <div class="vbHcXc gJItKf gHBEZd"></div>
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
@@ -870,7 +1066,8 @@
                                         <span>Загрузить фото:</span>
                                         <input style="max-width: 17em;" type="file" name="uploadedFile" />
                                     </div>
-                                    <input type="submit" class="btn btn-success" name="uploadBtn" value="Загрузить логотип" />
+                                    <input type="submit" class="btn btn-success" name="uploadBtn"
+                                        value="Загрузить логотип" />
                                 </form>
                             </div>
                         </div>
@@ -880,11 +1077,12 @@
         </div>
     </div>
     </div>
-    <?php echo '<pre>';
-                print_r($_SESSION);
-                print_r($_COOKIE);
-                print_r($full_arr);
-                ?>
+    <?php
+        echo '<pre>';
+        print_r($_SESSION);
+        print_r($_COOKIE);
+        print_r($full_arr);
+    ?>
 </body>
 
 </html>
